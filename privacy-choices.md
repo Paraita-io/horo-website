@@ -117,7 +117,7 @@ You have the right to delete your data at any time.
 **What gets deleted**: Subscription status, quota counters, device ID associations
 
 **How to request deletion**:
-1. Email us at **[YOUR SUPPORT EMAIL]**
+1. Email us at **paraita@paraita.io**
 2. Include your device ID (find it in About tab)
 3. We will confirm deletion within **30 days**
 
@@ -211,7 +211,7 @@ We protect your data with:
 
 To exercise any of your privacy rights, contact us:
 
-**Email**: [YOUR SUPPORT EMAIL]
+**Email**: paraita@paraita.io
 **Subject**: Privacy Rights Request
 **Include**:
 - Your request (access, deletion, correction, etc.)
@@ -233,7 +233,7 @@ If you're in the European Economic Area, you have additional rights:
 - **Right to Object**: Object to certain processing
 - **Right to Portability**: Receive your data in a portable format
 
-Email us at [YOUR SUPPORT EMAIL] to exercise these rights.
+Email us at paraita@paraita.io to exercise these rights.
 
 ---
 
@@ -246,7 +246,7 @@ If you're a California resident, you have the right to:
 - **Opt-Out**: Opt-out of sale (we don't sell data)
 - **Non-Discrimination**: Equal service regardless of privacy choices
 
-Email us at [YOUR SUPPORT EMAIL] to exercise these rights.
+Email us at paraita@paraita.io to exercise these rights.
 
 ---
 
@@ -265,7 +265,7 @@ We may update our privacy practices. When we do:
 Have questions about your privacy choices?
 
 - **Support**: [Support Page](support.html)
-- **Email**: [YOUR SUPPORT EMAIL]
+- **Email**: paraita@paraita.io
 - **Privacy Policy**: [Full Privacy Policy](privacy-policy.html)
 
 ---
