@@ -22,6 +22,7 @@
 
     <nav class="site-nav" data-nav>
       <a href="{% if is_fr %}index-fr.html{% else %}index.html{% endif %}" {% if page.nav_key == 'home' %}aria-current="page"{% endif %}>{% if is_fr %}Accueil{% else %}Home{% endif %}</a>
+      <a href="{% if is_fr %}plans-fr.html{% else %}plans.html{% endif %}" {% if page.nav_key == 'plans' %}aria-current="page"{% endif %}>{% if is_fr %}Offres{% else %}Plans{% endif %}</a>
       <a href="{% if is_fr %}press-kit-fr.html{% else %}press-kit.html{% endif %}" {% if page.nav_key == 'press' %}aria-current="page"{% endif %}>{% if is_fr %}Press Kit{% else %}Press Kit{% endif %}</a>
       <a href="{% if is_fr %}support-fr.html{% else %}support.html{% endif %}" {% if page.nav_key == 'support' %}aria-current="page"{% endif %}>{% if is_fr %}Support{% else %}Support{% endif %}</a>
       <a href="{% if is_fr %}privacy-policy-fr.html{% else %}privacy-policy.html{% endif %}" {% if page.nav_key == 'privacy' %}aria-current="page"{% endif %}>{% if is_fr %}Confidentialité{% else %}Privacy{% endif %}</a>

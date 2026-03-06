@@ -5,36 +5,38 @@ lang: en
 lang_alt: /index-fr.html
 nav_key: home
 page_class: landing
-description: Horo Coach turns Apple Watch workout data into clear, actionable AI coaching.
+description: Horo Coach turns Apple Watch workout data into clear, actionable AI coaching for iOS and iPadOS.
 ---
 
 <section class="hero container fade-in">
   <div>
     <div class="badge-row">
-      <span class="badge">Apple Watch-first</span>
+      <span class="badge">iOS + iPadOS app</span>
       <span class="badge">AI coaching</span>
       <span class="badge">Built in Tahiti</span>
     </div>
     <h1>Train smarter with coaching that actually tells you what to improve.</h1>
-    <p>Horo Coach reads your Apple Health workouts, explains what matters, and gives clear next steps in a tone that fits you.</p>
+    <p>Horo Coach analyzes workouts recorded from Apple Watch and Apple Health, then gives clear feedback and concrete next steps in your preferred coaching tone.</p>
     <div class="hero-actions">
       <a class="btn btn-primary" href="#" aria-label="Download on the App Store">Download on the App Store</a>
-      <a class="btn btn-secondary" href="#how-it-works">How it works</a>
+      <a class="btn btn-secondary" href="plans.html">See Free vs Premium</a>
     </div>
   </div>
 
   <div class="device-showcase" aria-hidden="true">
-    <div class="watch-mock">
+    <div class="ipad-mock">
       <div class="mock-screen">
         <p class="mock-title">Coach Focus</p>
         <div class="mock-lines">
-          <span style="width: 84%"></span>
+          <span style="width: 86%"></span>
           <span style="width: 64%"></span>
-          <span style="width: 72%"></span>
+          <span style="width: 73%"></span>
+          <span style="width: 91%"></span>
+          <span style="width: 55%"></span>
         </div>
       </div>
     </div>
-    <div class="phone-mock">
+    <div class="iphone-mock">
       <div class="mock-screen">
         <p class="mock-title">Today: Running Analysis</p>
         <div class="mock-lines">
@@ -52,25 +54,25 @@ description: Horo Coach turns Apple Watch workout data into clear, actionable AI
 <section class="container fade-in">
   <div class="panel">
     <h2 class="section-title">Raw fitness data is useful. Direction is better.</h2>
-    <p class="section-lead">Pace, cadence, heart rate and power are valuable, but most athletes still ask the same question after a workout: what should I change next time?</p>
+    <p class="section-lead">Pace, cadence, power and heart rate are valuable. But after a workout, most people still wonder: what should I change next?</p>
   </div>
 </section>
 
 <section class="container fade-in">
   <h2 class="section-title">Horo turns analysis into action.</h2>
-  <p class="section-lead">AI analysis identifies performance signals, translates them into plain feedback, then gives practical improvements for your next session.</p>
+  <p class="section-lead">Every workout analysis identifies the relevant metrics for that activity type, explains what matters, and provides practical improvements for your next session.</p>
   <div class="grid-3" style="margin-top: 1rem;">
     <article class="card">
       <h3>Analyze</h3>
-      <p>Workout metrics from Apple Health are interpreted in context.</p>
+      <p>Activity-specific metrics are selected automatically.</p>
     </article>
     <article class="card">
       <h3>Explain</h3>
-      <p>You get clear feedback, not technical noise.</p>
+      <p>Feedback is clear and useful, never overloaded.</p>
     </article>
     <article class="card">
       <h3>Improve</h3>
-      <p>Each insight leads to a practical next move.</p>
+      <p>You get immediate next steps to apply.</p>
     </article>
   </div>
 </section>
@@ -80,16 +82,54 @@ description: Horo Coach turns Apple Watch workout data into clear, actionable AI
   <div class="grid-3 steps" style="margin-top: 1rem;">
     <article class="card step">
       <h3>Import workouts</h3>
-      <p>Connect Apple Health and choose the sessions you want reviewed.</p>
+      <p>Sync data from Apple Health workouts recorded by Apple Watch and compatible apps.</p>
     </article>
     <article class="card step">
       <h3>Get AI feedback</h3>
-      <p>Horo breaks down strengths, inefficiencies and training signals.</p>
+      <p>Horo identifies strengths, inefficiencies and progression signals.</p>
     </article>
     <article class="card step">
       <h3>Apply recommendations</h3>
-      <p>Follow focused advice in your next run, ride, swim or walk.</p>
+      <p>Follow focused guidance in your next session.</p>
     </article>
+  </div>
+</section>
+
+<section class="container fade-in">
+  <h2 class="section-title">All Apple Watch activity types are supported</h2>
+  <p class="section-lead">Running, cycling, swimming, HIIT, strength, yoga, hiking, rowing and every other Apple Watch workout type are supported. Horo adapts analysis depth to each activity and highlights the metrics that matter most for that effort.</p>
+</section>
+
+<section class="container fade-in">
+  <h2 class="section-title">Meet the coaches</h2>
+  <p class="section-lead">Choose the voice that motivates you best. And watch for the seasonal mystery coach.</p>
+  <div class="carousel-wrap" data-carousel style="margin-top: 1rem;">
+    <div class="carousel-track" data-carousel-track>
+      <article class="coach-card">
+        <span class="coach-tag">Core Coach</span>
+        <h3>Pulse</h3>
+        <p>Direct and performance-driven. Focuses on execution and consistency.</p>
+      </article>
+      <article class="coach-card">
+        <span class="coach-tag">Core Coach</span>
+        <h3>Flow</h3>
+        <p>Balanced and supportive. Great for sustainable progress and routine.</p>
+      </article>
+      <article class="coach-card">
+        <span class="coach-tag">Core Coach</span>
+        <h3>Vector</h3>
+        <p>Analytical and precise. Ideal for data-driven athletes.</p>
+      </article>
+      <article class="coach-card">
+        <span class="coach-tag">Seasonal Coach</span>
+        <h3>Mystery Coach</h3>
+        <p>A limited-time seasonal personality with a unique style and tone.</p>
+      </article>
+    </div>
+    <div class="carousel-controls">
+      <button class="carousel-btn" data-carousel-prev aria-label="Previous coach">←</button>
+      <button class="carousel-btn" data-carousel-next aria-label="Next coach">→</button>
+    </div>
   </div>
 </section>
 
@@ -101,16 +141,16 @@ description: Horo Coach turns Apple Watch workout data into clear, actionable AI
       <p>Specific coaching points, not generic motivation.</p>
     </article>
     <article class="card">
-      <h3>AI analysis with context</h3>
-      <p>Numbers are interpreted by sport, intensity and progression.</p>
+      <h3>Activity-aware AI analysis</h3>
+      <p>Metrics are interpreted according to workout type.</p>
     </article>
     <article class="card">
       <h3>Multiple coach personalities</h3>
-      <p>Choose the tone that pushes you best: direct, supportive, analytical.</p>
+      <p>Pick the style that helps you stay consistent.</p>
     </article>
     <article class="card">
-      <h3>Apple Watch-first UX</h3>
-      <p>Built for the Apple ecosystem, from workout capture to review.</p>
+      <h3>Built for iOS and iPadOS</h3>
+      <p>Apple Watch records the workout, Horo handles smart analysis on iPhone and iPad.</p>
     </article>
   </div>
 </section>
@@ -118,8 +158,8 @@ description: Horo Coach turns Apple Watch workout data into clear, actionable AI
 <section class="container fade-in">
   <h2 class="section-title">Screenshots</h2>
   <p class="section-lead">Swipe through key moments of the in-app coaching experience.</p>
-  <div class="screenshots-wrap" style="margin-top: 1rem;">
-    <div class="screenshots-track" data-carousel-track>
+  <div class="carousel-wrap" data-carousel style="margin-top: 1rem;">
+    <div class="carousel-track" data-carousel-track>
       <article class="shot">
         <h3>Workout summary</h3>
         <p>See your effort profile at a glance before reading the full analysis.</p>
@@ -149,15 +189,15 @@ description: Horo Coach turns Apple Watch workout data into clear, actionable AI
   <div class="grid-3" style="margin-top: 1rem;">
     <article class="card">
       <h3>Active beginners</h3>
-      <p>Understand your data without needing sports science knowledge.</p>
+      <p>Understand your workouts without needing sports science expertise.</p>
     </article>
     <article class="card">
       <h3>Consistency-focused athletes</h3>
-      <p>Build smarter habits with feedback after each workout.</p>
+      <p>Improve one session at a time with clear direction.</p>
     </article>
     <article class="card">
       <h3>Data-driven Apple users</h3>
-      <p>Use Health data as a decision tool, not just a dashboard.</p>
+      <p>Turn Health data into decisions, not just dashboards.</p>
     </article>
   </div>
 </section>
@@ -165,7 +205,10 @@ description: Horo Coach turns Apple Watch workout data into clear, actionable AI
 <section class="container fade-in">
   <div class="cta-block">
     <h2>Your next breakthrough starts after your next workout.</h2>
-    <p>Install Horo Coach and turn every Apple Watch session into measurable progress.</p>
-    <a class="btn btn-secondary" href="#" aria-label="Download Horo Coach on the App Store">Get Horo Coach on the App Store</a>
+    <p>Start free, then unlock Premium for unlimited analyses and advanced activity-specific insights.</p>
+    <div class="hero-actions">
+      <a class="btn btn-secondary" href="#" aria-label="Download Horo Coach on the App Store">Get Horo Coach on the App Store</a>
+      <a class="btn btn-secondary" href="plans.html">Compare plans</a>
+    </div>
   </div>
 </section>

@@ -33,13 +33,18 @@
     fadeEls.forEach((el) => observer.observe(el));
   }
 
-  const track = document.querySelector('[data-carousel-track]');
-  const prevBtn = document.querySelector('[data-carousel-prev]');
-  const nextBtn = document.querySelector('[data-carousel-next]');
+  const carousels = document.querySelectorAll('[data-carousel]');
+  carousels.forEach((carousel) => {
+    const track = carousel.querySelector('[data-carousel-track]');
+    const prevBtn = carousel.querySelector('[data-carousel-prev]');
+    const nextBtn = carousel.querySelector('[data-carousel-next]');
 
-  if (track && prevBtn && nextBtn) {
+    if (!track || !prevBtn || !nextBtn) {
+      return;
+    }
+
     const scrollByCard = (direction) => {
-      const card = track.querySelector('.shot');
+      const card = track.firstElementChild;
       const gap = 12;
       const step = card ? card.getBoundingClientRect().width + gap : 260;
       track.scrollBy({ left: direction * step, behavior: 'smooth' });
@@ -47,5 +52,5 @@
 
     prevBtn.addEventListener('click', () => scrollByCard(-1));
     nextBtn.addEventListener('click', () => scrollByCard(1));
-  }
+  });
 })();

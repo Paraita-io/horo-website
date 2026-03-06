@@ -281,14 +281,14 @@ section {
 
 .device-showcase {
   display: grid;
-  grid-template-columns: 0.85fr 1fr;
+  grid-template-columns: 1.18fr 0.82fr;
   gap: var(--space-4);
-  max-width: 520px;
+  max-width: 620px;
   margin-inline: auto;
 }
 
-.watch-mock,
-.phone-mock {
+.ipad-mock,
+.iphone-mock {
   border-radius: 28px;
   background: linear-gradient(170deg, #0f172a, #1e293b 60%, #334155);
   border: 1px solid rgba(255, 255, 255, 0.26);
@@ -296,9 +296,13 @@ section {
   box-shadow: var(--shadow-card);
 }
 
-.watch-mock {
+.ipad-mock {
+  border-radius: 24px;
+}
+
+.iphone-mock {
   align-self: center;
-  border-radius: 32px;
+  border-radius: 30px;
 }
 
 .mock-screen {
@@ -309,9 +313,14 @@ section {
   color: #0f172a;
 }
 
-.watch-mock .mock-screen {
-  min-height: 170px;
-  border-radius: 24px;
+.ipad-mock .mock-screen {
+  min-height: 285px;
+  border-radius: 16px;
+}
+
+.iphone-mock .mock-screen {
+  min-height: 240px;
+  border-radius: 22px;
 }
 
 .mock-title {
@@ -418,11 +427,11 @@ section {
   font-weight: 700;
 }
 
-.screenshots-wrap {
+.carousel-wrap {
   position: relative;
 }
 
-.screenshots-track {
+.carousel-track {
   display: grid;
   grid-auto-flow: column;
   grid-auto-columns: minmax(72%, 1fr);
@@ -447,6 +456,35 @@ section {
 }
 
 .shot p {
+  margin: 0;
+  color: var(--muted);
+}
+
+.coach-card {
+  scroll-snap-align: start;
+  min-height: 245px;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--line);
+  background: linear-gradient(150deg, #f8fafc, #f0f9ff);
+  padding: var(--space-5);
+}
+
+.coach-tag {
+  display: inline-flex;
+  font-size: 0.75rem;
+  border-radius: 999px;
+  padding: 0.25rem 0.55rem;
+  background: rgba(15, 23, 42, 0.08);
+  color: var(--muted);
+  margin-bottom: 0.65rem;
+}
+
+.coach-card h3 {
+  margin: 0 0 0.45rem;
+  font-family: Manrope, sans-serif;
+}
+
+.coach-card p {
   margin: 0;
   color: var(--muted);
 }
@@ -665,7 +703,7 @@ section {
     grid-template-columns: 1fr 0.95fr;
   }
 
-  .screenshots-track {
+  .carousel-track {
     grid-auto-columns: minmax(35%, 1fr);
   }
 }

@@ -25,7 +25,7 @@ description: Ressources presse Horo Coach : description produit, fonctionnalité
   <article id="product" class="prose">
     <h2>Description Produit</h2>
     <p>Horo Coach est un compagnon iOS/watchOS qui transforme les métriques d’entraînement Apple Santé en feedback de coaching clair et actionnable, généré par IA. L’objectif: comprendre non seulement ce qui s’est passé, mais quoi améliorer ensuite.</p>
-    <p><strong>Positionnement:</strong> Coaching premium, Apple Watch-first, pour utilisateurs santé/fitness qui veulent des recommandations utiles et concrètes.</p>
+    <p><strong>Positionnement:</strong> Coaching premium iOS/iPadOS pour utilisateurs santé/fitness qui veulent des recommandations utiles et concrètes basées sur leurs entraînements.</p>
   </article>
 
   <section id="features" class="grid-2">
@@ -41,7 +41,7 @@ description: Ressources presse Horo Coach : description produit, fonctionnalité
     <article class="card">
       <h3>Plateforme & Confidentialité</h3>
       <ul>
-        <li>Parcours Apple Health + Apple Watch-first</li>
+        <li>Parcours Apple Health (compatible avec les entraînements enregistrés via Apple Watch)</li>
         <li>Aucun tracking publicitaire tiers</li>
         <li>Transmission HTTPS uniquement</li>
         <li>Contrôles de données clairs</li>
@@ -68,23 +68,25 @@ description: Ressources presse Horo Coach : description produit, fonctionnalité
 
   <section id="screenshots">
     <h2 class="section-title">Galerie de captures</h2>
-    <div class="screenshots-track" data-carousel-track>
-      <article class="shot">
-        <h3>Vue d’ensemble</h3>
-        <p>Résumé rapide de l’activité récente et du focus coaching.</p>
-      </article>
-      <article class="shot">
-        <h3>Analyse d’entraînement</h3>
-        <p>Feedback IA structuré avec forces et axes d’amélioration.</p>
-      </article>
-      <article class="shot">
-        <h3>Styles de coach</h3>
-        <p>Personnalités de coaching différentes selon le profil utilisateur.</p>
-      </article>
-    </div>
-    <div class="carousel-controls">
-      <button class="carousel-btn" data-carousel-prev aria-label="Capture précédente">←</button>
-      <button class="carousel-btn" data-carousel-next aria-label="Capture suivante">→</button>
+    <div class="carousel-wrap" data-carousel>
+      <div class="carousel-track" data-carousel-track>
+        <article class="shot">
+          <h3>Vue d’ensemble</h3>
+          <p>Résumé rapide de l’activité récente et du focus coaching.</p>
+        </article>
+        <article class="shot">
+          <h3>Analyse d’entraînement</h3>
+          <p>Feedback IA structuré avec forces et axes d’amélioration.</p>
+        </article>
+        <article class="shot">
+          <h3>Styles de coach</h3>
+          <p>Personnalités de coaching différentes selon le profil utilisateur.</p>
+        </article>
+      </div>
+      <div class="carousel-controls">
+        <button class="carousel-btn" data-carousel-prev aria-label="Capture précédente">←</button>
+        <button class="carousel-btn" data-carousel-next aria-label="Capture suivante">→</button>
+      </div>
     </div>
   </section>
 </section>

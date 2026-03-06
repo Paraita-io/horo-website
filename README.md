@@ -8,8 +8,9 @@ Static, bilingual marketing website for **Horo Coach** (GitHub Pages compatible,
 - `_includes/site-header.html`: primary navigation + language switcher
 - `_includes/site-footer.html`: footer links
 - `assets/css/site.css`: design system + responsive UI
-- `assets/js/site.js`: mobile nav, fade-in animation, screenshot carousel controls
+- `assets/js/site.js`: mobile nav, fade-in animation, multi-carousel controls
 - `index.md`, `index-fr.md`: landing pages (conversion-focused)
+- `plans.md`, `plans-fr.md`: free vs premium comparison pages
 - `press-kit.md`, `press-kit-fr.md`: media resources
 - `support*.md`, `privacy-policy*.md`, `privacy-choices*.md`: legal/support pages
 
@@ -18,10 +19,11 @@ Static, bilingual marketing website for **Horo Coach** (GitHub Pages compatible,
 Primary menu on all pages:
 
 1. Home
-2. Press Kit
-3. Support
-4. Privacy
-5. Privacy Choices
+2. Plans
+3. Press Kit
+4. Support
+5. Privacy
+6. Privacy Choices
 
 Language switcher is always visible in the header and uses `lang_alt` per page front matter.
 
@@ -41,7 +43,7 @@ Implemented in `assets/js/site.js`:
 
 - Mobile navigation toggle
 - Scroll reveal (`.fade-in` -> `.visible`)
-- Horizontal screenshot carousel controls
+- Horizontal carousel controls (screenshots + coaches)
 
 ## Content Maintenance
 

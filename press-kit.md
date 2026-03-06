@@ -25,7 +25,7 @@ description: Press resources for Horo Coach: product summary, key features, asse
   <article id="product" class="prose">
     <h2>Product Description</h2>
     <p>Horo Coach is an iOS and watchOS companion that turns Apple Health workout metrics into clear, actionable coaching feedback powered by AI. It helps athletes understand not just what happened, but what to improve next.</p>
-    <p><strong>Positioning:</strong> Premium, Apple Watch-first coaching for health-conscious users who want practical performance guidance.</p>
+    <p><strong>Positioning:</strong> Premium iOS/iPadOS coaching for health-conscious users who want practical performance guidance from their workout data.</p>
   </article>
 
   <section id="features" class="grid-2">
@@ -41,7 +41,7 @@ description: Press resources for Horo Coach: product summary, key features, asse
     <article class="card">
       <h3>Platform & Privacy</h3>
       <ul>
-        <li>Apple Health + Apple Watch-first workflow</li>
+        <li>Apple Health workflow (Apple Watch workout recording compatible)</li>
         <li>No third-party ad tracking</li>
         <li>HTTPS-only transmission</li>
         <li>Clear user data controls</li>
@@ -68,23 +68,25 @@ description: Press resources for Horo Coach: product summary, key features, asse
 
   <section id="screenshots">
     <h2 class="section-title">Screenshots Gallery</h2>
-    <div class="screenshots-track" data-carousel-track>
-      <article class="shot">
-        <h3>Overview dashboard</h3>
-        <p>High-level summary of recent activity and coaching focus.</p>
-      </article>
-      <article class="shot">
-        <h3>Workout analysis</h3>
-        <p>Structured AI feedback with strengths and improvement priorities.</p>
-      </article>
-      <article class="shot">
-        <h3>Coach styles</h3>
-        <p>Different personalities users can choose from based on motivation style.</p>
-      </article>
-    </div>
-    <div class="carousel-controls">
-      <button class="carousel-btn" data-carousel-prev aria-label="Previous screenshot">←</button>
-      <button class="carousel-btn" data-carousel-next aria-label="Next screenshot">→</button>
+    <div class="carousel-wrap" data-carousel>
+      <div class="carousel-track" data-carousel-track>
+        <article class="shot">
+          <h3>Overview dashboard</h3>
+          <p>High-level summary of recent activity and coaching focus.</p>
+        </article>
+        <article class="shot">
+          <h3>Workout analysis</h3>
+          <p>Structured AI feedback with strengths and improvement priorities.</p>
+        </article>
+        <article class="shot">
+          <h3>Coach styles</h3>
+          <p>Different personalities users can choose from based on motivation style.</p>
+        </article>
+      </div>
+      <div class="carousel-controls">
+        <button class="carousel-btn" data-carousel-prev aria-label="Previous screenshot">←</button>
+        <button class="carousel-btn" data-carousel-next aria-label="Next screenshot">→</button>
+      </div>
     </div>
   </section>
 </section>
