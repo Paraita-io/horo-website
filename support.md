@@ -1,187 +1,95 @@
 ---
 layout: default
-title: Support - Horo
+title: Support
 lang: en
+lang_alt: /support-fr.html
+nav_key: support
+page_class: legal-page
+description: Horo Coach support and FAQ.
 ---
 
-# Horo Support
+<section class="container legal-layout fade-in">
+  <header class="legal-header">
+    <h1>Support</h1>
+    <p>Fast answers for setup, troubleshooting, subscriptions and privacy questions.</p>
+  </header>
 
-Need help with Horo? We're here to assist you!
+  <div class="quick-links">
+    <a href="#contact">Contact</a>
+    <a href="#faq">FAQ</a>
+    <a href="#technical">Technical</a>
+    <a href="#subscriptions">Subscription</a>
+    <a href="#privacy">Privacy</a>
+  </div>
 
----
+  <article id="contact" class="prose" markdown="1">
+## Contact
 
-## 📧 Contact Us
+- **Email:** `paraita@paraita.io`
+- **Response time:** usually 24-48 business hours
 
-For questions, issues, or feedback, please contact us:
+Include your iPhone model, iOS version, and a short issue description to speed up support.
+  </article>
 
-**Email**: [YOUR SUPPORT EMAIL]
+  <article id="faq" class="prose" markdown="1">
+## Frequently Asked Questions
 
-**Response Time**: We typically respond within 24-48 hours on business days.
+### What is Horo Coach?
+Horo Coach analyzes Apple Health workouts and gives actionable AI coaching feedback.
 
----
+### What sports are supported?
+Running, cycling, swimming, and walking are fully supported.
 
-## ❓ Frequently Asked Questions
+### Is my data safe?
+HealthKit data stays on-device unless you choose analysis. Shared workout metrics are encrypted in transit. See [Privacy Policy](privacy-policy.html).
 
-### General
+### Why can't I see my workouts?
+1. Check Health permissions: `Settings > Privacy & Security > Health > Horo`
+2. Confirm workouts exist in Apple Health
+3. Reopen the app and refresh
+  </article>
 
-**Q: What is Horo?**
-A: Horo is an AI fitness coaching app that analyzes your Apple Health workouts and provides personalized feedback from coaches with unique personalities.
+  <article id="subscriptions" class="prose" markdown="1">
+## Subscription and Premium
 
-**Q: What sports does Horo support?**
-A: Horo fully supports Running, Cycling, Swimming, and Walking. Other activities show basic metrics.
+### Free plan
+- 2 analyses/day
+- 1 coach personality
+- Core sport support
 
-**Q: Is my data safe?**
-A: Yes! Your HealthKit data stays on your device. Only workout metrics (pace, distance, etc.) are sent to our secure backend for AI analysis. See our [Privacy Policy](privacy-policy.html) for details.
-
----
-
-### Getting Started
-
-**Q: How do I authorize HealthKit access?**
-A: During onboarding, Horo will request access to your workout data. You can also grant access later in iOS Settings > Privacy & Security > Health > Horo.
-
-**Q: I don't see my workouts. What's wrong?**
-A: Make sure you've:
-1. Authorized HealthKit access
-2. Created workouts in Apple Health or a compatible fitness app
-3. Completed the onboarding flow
-
-**Q: How do I choose a different coach?**
-A: Go to the "About" tab, scroll to "Pick your coach", and select your preferred coach.
-
----
-
-### Subscription & Premium
-
-**Q: What's included in the free plan?**
-A: The free plan includes:
-- 2 workout analyses per day
-- 1 default coach
-- All sports support
-
-**Q: What's included in Premium?**
-A: Premium includes:
-- Unlimited workout analyses
-- Access to all coaches
+### Premium
+- Unlimited analyses
+- Access to all coach personalities
 - Priority support
-- Early access to new features
 
-**Q: How do I subscribe to Premium?**
-A: Go to the "About" tab, scroll to "Subscription", and tap "Unlock for $X/month".
+### How to manage subscription
+Subscriptions are managed by Apple: `Settings > Apple ID > Subscriptions`.
+  </article>
 
-**Q: How do I cancel my subscription?**
-A: Subscriptions are managed by Apple:
-1. Open iOS Settings
-2. Tap your Apple ID at the top
-3. Tap "Subscriptions"
-4. Select Horo
-5. Tap "Cancel Subscription"
+  <article id="technical" class="prose" markdown="1">
+## Technical Issues
 
-**Q: How do I restore my purchase?**
-A: Go to the "About" tab, scroll to "Subscription", and tap "Restore purchase".
+### App freezes or crashes
+1. Force quit and relaunch Horo
+2. Restart iPhone
+3. Update iOS
+4. Reinstall app
 
----
+### Analysis does not complete
+1. Check network connection
+2. Retry after a minute
+3. Contact support if persistent
 
-### Technical Issues
+### Notifications missing
+1. Verify notifications are enabled for Horo in iOS settings
+2. Ensure Health permissions are active
+  </article>
 
-**Q: The app crashes or freezes. What should I do?**
-A: Try these steps:
-1. Force quit the app (swipe up in App Switcher)
-2. Restart your iPhone
-3. Update to the latest iOS version
-4. Reinstall the app (your data is safe in HealthKit)
+  <article id="privacy" class="prose" markdown="1">
+## Privacy Requests
 
-If the problem persists, contact us at [YOUR SUPPORT EMAIL].
-
-**Q: I'm not receiving workout notifications.**
-A: Check that:
-1. Notifications are enabled in iOS Settings > Horo
-2. You've authorized HealthKit access
-3. You have new workouts in Apple Health
-
-**Q: The analysis seems stuck. What should I do?**
-A: This usually means a network issue:
-1. Check your internet connection
-2. Try again in a few moments
-3. If it persists, contact support
-
----
-
-### Privacy & Data
-
-**Q: What data does Horo collect?**
-A: Horo collects:
-- Workout metrics from Apple Health (pace, distance, heart rate, etc.)
-- Device ID (for subscription management)
-- User preferences (goal, level, sport)
-
-See our [Privacy Policy](privacy-policy.html) for complete details.
-
-**Q: How do I delete my data?**
-A:
-- **Local data**: Delete the app to remove all cached data
-- **Backend data**: Email us at [YOUR SUPPORT EMAIL] to request deletion
-
-**Q: Do you sell my data?**
-A: No. Never. We do not sell personal data to anyone.
-
-**Q: Who has access to my workout data?**
-A: Your workout metrics are:
-- Sent to our secure backend for AI analysis
-- Sent to OpenAI's API (via our backend) to generate coaching feedback
-- Never sold or shared with third parties for advertising
-
----
-
-### Account & Settings
-
-**Q: How do I change my fitness goal or level?**
-A: Go to the "About" tab and tap "Personalize your experience".
-
-**Q: How do I change the feedback language?**
-A: Go to the "About" tab, scroll to "Language", and select your preferred language (English or French).
-
-**Q: Can I use Horo offline?**
-A: You can view previously analyzed workouts offline, but analyzing new workouts requires an internet connection (for AI processing).
-
----
-
-## 🐛 Report a Bug
-
-Found a bug? Please email us at [YOUR SUPPORT EMAIL] with:
-- Description of the issue
-- Steps to reproduce
-- Screenshots (if applicable)
-- iPhone model and iOS version
-
----
-
-## 💡 Feature Requests
-
-Have an idea for a new feature? We'd love to hear it!
-
-Email us at [YOUR SUPPORT EMAIL] with your suggestion.
-
----
-
-## 📚 Additional Resources
-
-- [Privacy Policy](privacy-policy.html)
-- [Privacy Choices](privacy-choices.html)
-- [App Store Page](#) (link to be added)
-
----
-
-## 🇵🇫 About Horo
-
-Horo is developed in Tahiti, French Polynesia 🌺
-
-We're committed to helping you improve your fitness with personalized AI coaching while respecting your privacy.
-
----
-
-**Last Updated**: December 23, 2024
-
----
-
-[🇫🇷 Version Française](support-fr.html) | [🏠 Back to App](horo://home)
+- **Delete backend data:** email `paraita@paraita.io`
+- **Delete local app data:** remove the app from iPhone
+- **Learn more:** [Privacy Policy](privacy-policy.html) and [Privacy Choices](privacy-choices.html)
+  </article>
+</section>

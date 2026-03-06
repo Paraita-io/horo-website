@@ -1,0 +1,35 @@
+{% assign is_fr = page.lang == 'fr' %}
+{% if page.lang_alt %}
+  {% assign lang_alt = page.lang_alt %}
+{% elsif is_fr %}
+  {% assign lang_alt = page.url | replace: '-fr', '' %}
+{% else %}
+  {% assign lang_alt = page.url | replace: '.html', '-fr.html' %}
+{% endif %}
+
+<header class="site-header" data-header>
+  <a href="#main-content" class="skip-link">{% if is_fr %}Aller au contenu{% else %}Skip to content{% endif %}</a>
+  <div class="container nav-shell glass">
+    <a class="brand" href="{% if is_fr %}index-fr.html{% else %}index.html{% endif %}">
+      <span class="brand-dot" aria-hidden="true"></span>
+      <span>Horo Coach</span>
+    </a>
+
+    <button class="nav-toggle" type="button" aria-label="{% if is_fr %}Ouvrir le menu{% else %}Open menu{% endif %}" aria-expanded="false" data-nav-toggle>
+      <span></span>
+      <span></span>
+    </button>
+
+    <nav class="site-nav" data-nav>
+      <a href="{% if is_fr %}index-fr.html{% else %}index.html{% endif %}" {% if page.nav_key == 'home' %}aria-current="page"{% endif %}>{% if is_fr %}Accueil{% else %}Home{% endif %}</a>
+      <a href="{% if is_fr %}press-kit-fr.html{% else %}press-kit.html{% endif %}" {% if page.nav_key == 'press' %}aria-current="page"{% endif %}>{% if is_fr %}Press Kit{% else %}Press Kit{% endif %}</a>
+      <a href="{% if is_fr %}support-fr.html{% else %}support.html{% endif %}" {% if page.nav_key == 'support' %}aria-current="page"{% endif %}>{% if is_fr %}Support{% else %}Support{% endif %}</a>
+      <a href="{% if is_fr %}privacy-policy-fr.html{% else %}privacy-policy.html{% endif %}" {% if page.nav_key == 'privacy' %}aria-current="page"{% endif %}>{% if is_fr %}Confidentialité{% else %}Privacy{% endif %}</a>
+      <a href="{% if is_fr %}privacy-choices-fr.html{% else %}privacy-choices.html{% endif %}" {% if page.nav_key == 'choices' %}aria-current="page"{% endif %}>{% if is_fr %}Choix Privacy{% else %}Privacy Choices{% endif %}</a>
+    </nav>
+
+    <a class="lang-switch" href="{{ lang_alt | remove_first: '/' }}" aria-label="{% if is_fr %}Switch to English{% else %}Passer en français{% endif %}">
+      {% if is_fr %}EN{% else %}FR{% endif %}
+    </a>
+  </div>
+</header>

@@ -1,0 +1,15 @@
+{% assign is_fr = page.lang == 'fr' %}
+<footer class="site-footer">
+  <div class="container footer-shell">
+    <div>
+      <p class="footer-brand">Horo Coach</p>
+      <p class="footer-copy">{% if is_fr %}Coach IA Apple Watch-first, conçu à Tahiti.{% else %}Apple Watch-first AI coaching, crafted in Tahiti.{% endif %}</p>
+    </div>
+    <div class="footer-links">
+      <a href="{% if is_fr %}support-fr.html{% else %}support.html{% endif %}">{% if is_fr %}Support{% else %}Support{% endif %}</a>
+      <a href="{% if is_fr %}privacy-policy-fr.html{% else %}privacy-policy.html{% endif %}">{% if is_fr %}Confidentialité{% else %}Privacy{% endif %}</a>
+      <a href="{% if is_fr %}privacy-choices-fr.html{% else %}privacy-choices.html{% endif %}">{% if is_fr %}Choix Privacy{% else %}Privacy Choices{% endif %}</a>
+      <a href="{% if is_fr %}press-kit-fr.html{% else %}press-kit.html{% endif %}">Press Kit</a>
+    </div>
+  </div>
+</footer>
