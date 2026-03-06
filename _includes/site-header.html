@@ -1,4 +1,8 @@
-{% assign is_fr = page.lang == 'fr' %}
+{% if page.lang == 'fr' %}
+  {% assign is_fr = true %}
+{% else %}
+  {% assign is_fr = false %}
+{% endif %}
 {% if page.lang_alt %}
   {% assign lang_alt = page.lang_alt %}
 {% elsif is_fr %}
