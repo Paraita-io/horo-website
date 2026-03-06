@@ -35,18 +35,42 @@ description: Compare Horo Coach free and premium plans.
     </article>
   </section>
 
-  <article class="prose" markdown="1">
-## Plan Comparison
+  <article class="prose">
+    <h2>Plan Comparison</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Feature</th>
+          <th>Free</th>
+          <th>Premium</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Analysis</td>
+          <td>2 per day</td>
+          <td><strong>Unlimited</strong></td>
+        </tr>
+        <tr>
+          <td>Relevant metrics by activity type</td>
+          <td>Core insights</td>
+          <td><strong>Advanced metrics + deeper context</strong></td>
+        </tr>
+        <tr>
+          <td>Coach access</td>
+          <td>3 core coaches + current seasonal mystery coach</td>
+          <td><strong>All core coaches + all seasonal coaches released</strong></td>
+        </tr>
+        <tr>
+          <td>Best for</td>
+          <td>Getting started and regular use</td>
+          <td>High-consistency, data-driven progression</td>
+        </tr>
+      </tbody>
+    </table>
 
-| Feature | Free | Premium |
-|---|---|---|
-| Analysis | 2 per day | **Unlimited** |
-| Relevant metrics by activity type | Core insights | **Advanced metrics + deeper context** |
-| Coach access | 3 core coaches + current seasonal mystery coach | **All core coaches + all seasonal coaches released** |
-| Best for | Getting started and regular use | High-consistency, data-driven progression |
-
-## Why Upgrade?
-Premium gives you more than volume: it gives you richer interpretation by activity type and long-term access to every seasonal coaching style.
+    <h2>Why Upgrade?</h2>
+    <p>Premium gives you more than volume: it gives you richer interpretation by activity type and long-term access to every seasonal coaching style.</p>
   </article>
 
   <div class="cta-block">

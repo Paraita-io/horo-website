@@ -107,21 +107,25 @@ description: Horo Coach turns Apple Watch workout data into clear, actionable AI
     <div class="carousel-track" data-carousel-track>
       <article class="coach-card">
         <span class="coach-tag">Core Coach</span>
+        <img class="coach-avatar" src="assets/images/coaches/harmonie.png" alt="Portrait of Harmonie coach" loading="lazy" />
         <h3>Harmonie</h3>
         <p>Holistic coach focused on balance, energy and sustainable progress.</p>
       </article>
       <article class="coach-card">
         <span class="coach-tag">Core Coach</span>
+        <img class="coach-avatar" src="assets/images/coaches/carl.png" alt="Portrait of Carl coach" loading="lazy" />
         <h3>Carl</h3>
         <p>Data-driven analyst who translates metrics into precise action.</p>
       </article>
       <article class="coach-card">
         <span class="coach-tag">Core Coach</span>
+        <img class="coach-avatar" src="assets/images/coaches/sarge-kruger.png" alt="Portrait of Sarge Kruger coach" loading="lazy" />
         <h3>Sarge Kruger</h3>
         <p>High-discipline coach with direct feedback and a no-excuses tone.</p>
       </article>
       <article class="coach-card">
         <span class="coach-tag">Seasonal Coach</span>
+        <img class="coach-avatar" src="assets/images/coaches/mystery-coach.png" alt="Portrait of mystery seasonal coach" loading="lazy" />
         <h3>Mystery Coach</h3>
         <p>A limited-time seasonal personality with a unique style and tone.</p>
       </article>

@@ -107,21 +107,25 @@ description: Horo Coach transforme les données Apple Watch en coaching IA clair
     <div class="carousel-track" data-carousel-track>
       <article class="coach-card">
         <span class="coach-tag">Coach de base</span>
+        <img class="coach-avatar" src="assets/images/coaches/harmonie.png" alt="Portrait du coach Harmonie" loading="lazy" />
         <h3>Harmonie</h3>
         <p>Coach holistique orientée équilibre, énergie et progression durable.</p>
       </article>
       <article class="coach-card">
         <span class="coach-tag">Coach de base</span>
+        <img class="coach-avatar" src="assets/images/coaches/carl.png" alt="Portrait du coach Carl" loading="lazy" />
         <h3>Carl</h3>
         <p>Analyste orienté données qui transforme les métriques en actions précises.</p>
       </article>
       <article class="coach-card">
         <span class="coach-tag">Coach de base</span>
+        <img class="coach-avatar" src="assets/images/coaches/sarge-kruger.png" alt="Portrait du coach Sarge Kruger" loading="lazy" />
         <h3>Sarge Kruger</h3>
         <p>Coach discipliné au ton direct, sans excuses, pour se dépasser.</p>
       </article>
       <article class="coach-card">
         <span class="coach-tag">Coach saisonnier</span>
+        <img class="coach-avatar" src="assets/images/coaches/mystery-coach.png" alt="Portrait du coach mystère saisonnier" loading="lazy" />
         <h3>Coach Mystère</h3>
         <p>Personnalité limitée dans le temps avec un style unique.</p>
       </article>

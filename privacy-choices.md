@@ -21,52 +21,58 @@ description: Manage your privacy choices in Horo Coach.
     <a href="#rights">Your rights</a>
   </div>
 
-  <article id="controls" class="prose" markdown="1">
-## Your In-App Controls
+  <article id="controls" class="prose">
+    <h2>Your In-App Controls</h2>
 
-### HealthKit access
-- Manage in `Settings > Privacy & Security > Health > Horo`
-- Disabling access prevents analysis of new workouts
+    <h3>HealthKit access</h3>
+    <ul>
+      <li>Manage in <code>Settings &gt; Privacy &amp; Security &gt; Health &gt; Horo</code></li>
+      <li>Disabling access prevents analysis of new workouts</li>
+    </ul>
 
-### Notifications
-- Manage in `Settings > Notifications > Horo`
-- App works without notifications
+    <h3>Notifications</h3>
+    <ul>
+      <li>Manage in <code>Settings &gt; Notifications &gt; Horo</code></li>
+      <li>App works without notifications</li>
+    </ul>
 
-### Language and coaching preferences
-- Manage in Horo app settings
-- Changes apply to future feedback
+    <h3>Language and coaching preferences</h3>
+    <ul>
+      <li>Manage in Horo app settings</li>
+      <li>Changes apply to future feedback</li>
+    </ul>
   </article>
 
-  <article id="deletion" class="prose" markdown="1">
-## Data Deletion
+  <article id="deletion" class="prose">
+    <h2>Data Deletion</h2>
 
-### Local data
-Delete the app to remove local cache/preferences from your iPhone.
+    <h3>Local data</h3>
+    <p>Delete the app to remove local cache/preferences from your iPhone.</p>
 
-### Backend data
-Email `paraita@paraita.io` to request deletion. We respond within 30 days.
+    <h3>Backend data</h3>
+    <p>Email <code>paraita@paraita.io</code> to request deletion. We respond within 30 days.</p>
   </article>
 
-  <article id="sharing" class="prose" markdown="1">
-## Third-Party Data Sharing
+  <article id="sharing" class="prose">
+    <h2>Third-Party Data Sharing</h2>
 
-### OpenAI
-Workout metrics may be processed by OpenAI (via our backend) to generate coaching output.
+    <h3>OpenAI</h3>
+    <p>Workout metrics may be processed by OpenAI (via our backend) to generate coaching output.</p>
 
-### Apple
-Purchase receipt data is processed by Apple for subscription verification.
+    <h3>Apple</h3>
+    <p>Purchase receipt data is processed by Apple for subscription verification.</p>
 
-### No sale of personal data
-Horo does not sell personal data and does not use third-party advertising trackers.
+    <h3>No sale of personal data</h3>
+    <p>Horo does not sell personal data and does not use third-party advertising trackers.</p>
   </article>
 
-  <article id="rights" class="prose" markdown="1">
-## Exercise Your Rights
-
-For access, deletion, correction, or portability requests:
-
-- Email: `paraita@paraita.io`
-- Support: [Support page](support.html)
-- Full details: [Privacy Policy](privacy-policy.html)
+  <article id="rights" class="prose">
+    <h2>Exercise Your Rights</h2>
+    <p>For access, deletion, correction, or portability requests:</p>
+    <ul>
+      <li>Email: <code>paraita@paraita.io</code></li>
+      <li>Support: <a href="support.html">Support page</a></li>
+      <li>Full details: <a href="privacy-policy.html">Privacy Policy</a></li>
+    </ul>
   </article>
 </section>

@@ -22,74 +22,87 @@ description: Horo Coach support and FAQ.
     <a href="#privacy">Privacy</a>
   </div>
 
-  <article id="contact" class="prose" markdown="1">
-## Contact
-
-- **Email:** `paraita@paraita.io`
-- **Response time:** usually 24-48 business hours
-
-Include your iPhone model, iOS version, and a short issue description to speed up support.
+  <article id="contact" class="prose">
+    <h2>Contact</h2>
+    <ul>
+      <li><strong>Email:</strong> <code>paraita@paraita.io</code></li>
+      <li><strong>Response time:</strong> usually 24-48 business hours</li>
+    </ul>
+    <p>Include your iPhone model, iOS version, and a short issue description to speed up support.</p>
   </article>
 
-  <article id="faq" class="prose" markdown="1">
-## Frequently Asked Questions
+  <article id="faq" class="prose">
+    <h2>Frequently Asked Questions</h2>
 
-### What is Horo Coach?
-Horo Coach analyzes Apple Health workouts and gives actionable AI coaching feedback.
+    <h3>What is Horo Coach?</h3>
+    <p>Horo Coach analyzes Apple Health workouts and gives actionable AI coaching feedback.</p>
 
-### What sports are supported?
-Running, cycling, swimming, and walking are fully supported.
+    <h3>What sports are supported?</h3>
+    <p>Running, cycling, swimming, and walking are fully supported. Other Apple Watch workout types are also supported with adapted metrics.</p>
 
-### Is my data safe?
-HealthKit data stays on-device unless you choose analysis. Shared workout metrics are encrypted in transit. See [Privacy Policy](privacy-policy.html).
+    <h3>Is my data safe?</h3>
+    <p>HealthKit data stays on-device unless you choose analysis. Shared workout metrics are encrypted in transit. See the <a href="privacy-policy.html">Privacy Policy</a>.</p>
 
-### Why can't I see my workouts?
-1. Check Health permissions: `Settings > Privacy & Security > Health > Horo`
-2. Confirm workouts exist in Apple Health
-3. Reopen the app and refresh
+    <h3>Why can’t I see my workouts?</h3>
+    <ol>
+      <li>Check Health permissions: <code>Settings &gt; Privacy &amp; Security &gt; Health &gt; Horo</code></li>
+      <li>Confirm workouts exist in Apple Health</li>
+      <li>Reopen the app and refresh</li>
+    </ol>
   </article>
 
-  <article id="subscriptions" class="prose" markdown="1">
-## Subscription and Premium
+  <article id="subscriptions" class="prose">
+    <h2>Subscription and Premium</h2>
 
-### Free plan
-- 2 analyses/day
-- 1 coach personality
-- Core sport support
+    <h3>Free plan</h3>
+    <ul>
+      <li>2 analyses per day</li>
+      <li>Core coach access</li>
+      <li>Core and adapted activity metrics</li>
+    </ul>
 
-### Premium
-- Unlimited analyses
-- Access to all coach personalities
-- Priority support
+    <h3>Premium</h3>
+    <ul>
+      <li>Unlimited analysis</li>
+      <li>Advanced metrics by activity type</li>
+      <li>Expanded coach access, including seasonal releases</li>
+    </ul>
 
-### How to manage subscription
-Subscriptions are managed by Apple: `Settings > Apple ID > Subscriptions`.
+    <h3>How to manage subscription</h3>
+    <p>Subscriptions are managed by Apple: <code>Settings &gt; Apple ID &gt; Subscriptions</code>.</p>
   </article>
 
-  <article id="technical" class="prose" markdown="1">
-## Technical Issues
+  <article id="technical" class="prose">
+    <h2>Technical Issues</h2>
 
-### App freezes or crashes
-1. Force quit and relaunch Horo
-2. Restart iPhone
-3. Update iOS
-4. Reinstall app
+    <h3>App freezes or crashes</h3>
+    <ol>
+      <li>Force quit and relaunch Horo</li>
+      <li>Restart iPhone</li>
+      <li>Update iOS</li>
+      <li>Reinstall app</li>
+    </ol>
 
-### Analysis does not complete
-1. Check network connection
-2. Retry after a minute
-3. Contact support if persistent
+    <h3>Analysis does not complete</h3>
+    <ol>
+      <li>Check network connection</li>
+      <li>Retry after a minute</li>
+      <li>Contact support if persistent</li>
+    </ol>
 
-### Notifications missing
-1. Verify notifications are enabled for Horo in iOS settings
-2. Ensure Health permissions are active
+    <h3>Notifications missing</h3>
+    <ol>
+      <li>Verify notifications are enabled for Horo in iOS settings</li>
+      <li>Ensure Health permissions are active</li>
+    </ol>
   </article>
 
-  <article id="privacy" class="prose" markdown="1">
-## Privacy Requests
-
-- **Delete backend data:** email `paraita@paraita.io`
-- **Delete local app data:** remove the app from iPhone
-- **Learn more:** [Privacy Policy](privacy-policy.html) and [Privacy Choices](privacy-choices.html)
+  <article id="privacy" class="prose">
+    <h2>Privacy Requests</h2>
+    <ul>
+      <li><strong>Delete backend data:</strong> email <code>paraita@paraita.io</code></li>
+      <li><strong>Delete local app data:</strong> remove the app from iPhone</li>
+      <li><strong>Learn more:</strong> <a href="privacy-policy.html">Privacy Policy</a> and <a href="privacy-choices.html">Privacy Choices</a></li>
+    </ul>
   </article>
 </section>

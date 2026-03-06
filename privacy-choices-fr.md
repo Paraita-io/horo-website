@@ -21,52 +21,58 @@ description: Gérer vos choix de confidentialité dans Horo Coach.
     <a href="#rights">Vos droits</a>
   </div>
 
-  <article id="controls" class="prose" markdown="1">
-## Vos contrôles dans l’app
+  <article id="controls" class="prose">
+    <h2>Vos contrôles dans l’app</h2>
 
-### Accès HealthKit
-- Gérer dans `Réglages > Confidentialité et sécurité > Santé > Horo`
-- La désactivation empêche l’analyse des nouvelles séances
+    <h3>Accès HealthKit</h3>
+    <ul>
+      <li>Gérer dans <code>Réglages &gt; Confidentialité et sécurité &gt; Santé &gt; Horo</code></li>
+      <li>La désactivation empêche l’analyse des nouvelles séances</li>
+    </ul>
 
-### Notifications
-- Gérer dans `Réglages > Notifications > Horo`
-- L’app fonctionne sans notifications
+    <h3>Notifications</h3>
+    <ul>
+      <li>Gérer dans <code>Réglages &gt; Notifications &gt; Horo</code></li>
+      <li>L’app fonctionne sans notifications</li>
+    </ul>
 
-### Langue et préférences de coaching
-- Gérer dans les paramètres de Horo
-- Les changements s’appliquent aux retours futurs
+    <h3>Langue et préférences de coaching</h3>
+    <ul>
+      <li>Gérer dans les paramètres de Horo</li>
+      <li>Les changements s’appliquent aux retours futurs</li>
+    </ul>
   </article>
 
-  <article id="deletion" class="prose" markdown="1">
-## Suppression des données
+  <article id="deletion" class="prose">
+    <h2>Suppression des données</h2>
 
-### Données locales
-Supprimez l’app pour retirer le cache local/préférences de votre iPhone.
+    <h3>Données locales</h3>
+    <p>Supprimez l’app pour retirer le cache local/préférences de votre iPhone.</p>
 
-### Données backend
-Envoyez un email à `paraita@paraita.io` pour demander la suppression. Réponse sous 30 jours.
+    <h3>Données backend</h3>
+    <p>Envoyez un email à <code>paraita@paraita.io</code> pour demander la suppression. Réponse sous 30 jours.</p>
   </article>
 
-  <article id="sharing" class="prose" markdown="1">
-## Partage avec des tiers
+  <article id="sharing" class="prose">
+    <h2>Partage avec des tiers</h2>
 
-### OpenAI
-Les métriques d’entraînement peuvent être traitées par OpenAI (via notre backend) pour générer les retours de coaching.
+    <h3>OpenAI</h3>
+    <p>Les métriques d’entraînement peuvent être traitées par OpenAI (via notre backend) pour générer les retours de coaching.</p>
 
-### Apple
-Les données de reçu d’achat sont traitées par Apple pour vérifier l’abonnement.
+    <h3>Apple</h3>
+    <p>Les données de reçu d’achat sont traitées par Apple pour vérifier l’abonnement.</p>
 
-### Aucune vente de données personnelles
-Horo ne vend pas de données personnelles et n’utilise pas de trackers publicitaires tiers.
+    <h3>Aucune vente de données personnelles</h3>
+    <p>Horo ne vend pas de données personnelles et n’utilise pas de trackers publicitaires tiers.</p>
   </article>
 
-  <article id="rights" class="prose" markdown="1">
-## Exercer vos droits
-
-Pour les demandes d’accès, suppression, correction ou portabilité :
-
-- Email : `paraita@paraita.io`
-- Support : [Page de support](support-fr.html)
-- Détails complets : [Politique de confidentialité](privacy-policy-fr.html)
+  <article id="rights" class="prose">
+    <h2>Exercer vos droits</h2>
+    <p>Pour les demandes d’accès, suppression, correction ou portabilité :</p>
+    <ul>
+      <li>Email : <code>paraita@paraita.io</code></li>
+      <li>Support : <a href="support-fr.html">Page de support</a></li>
+      <li>Détails complets : <a href="privacy-policy-fr.html">Politique de confidentialité</a></li>
+    </ul>
   </article>
 </section>

@@ -22,69 +22,85 @@ description: Politique de confidentialité de Horo Coach.
     <a href="#contact">Contact</a>
   </div>
 
-  <article class="prose" markdown="1">
-## Vue d’ensemble
-Horo Coach est une app iOS/iPadOS qui analyse les métriques d’entraînement Apple Santé (incluant les séances enregistrées via Apple Watch) pour fournir des retours de coaching générés par IA.
+  <article class="prose">
+    <h2 id="collect">Vue d’ensemble</h2>
+    <p>Horo Coach est une app iOS/iPadOS qui analyse les métriques d’entraînement Apple Santé (incluant les séances enregistrées via Apple Watch) pour fournir des retours de coaching générés par IA.</p>
 
-## 1. Données collectées {#collect}
-### Métriques d’entraînement
-- Distance, allure, durée, fréquence cardiaque, cadence et métriques spécifiques selon le sport
-- Collectées uniquement après autorisation HealthKit et pour les séances sélectionnées
+    <h2>1. Données collectées</h2>
+    <h3>Métriques d’entraînement</h3>
+    <ul>
+      <li>Distance, allure, durée, fréquence cardiaque, cadence et métriques spécifiques selon l’activité</li>
+      <li>Collectées uniquement après autorisation HealthKit et pour les séances sélectionnées</li>
+    </ul>
 
-### Préférences utilisateur
-- Objectif, niveau, sport préféré, personnalité du coach, langue
+    <h3>Préférences utilisateur</h3>
+    <ul>
+      <li>Objectif, niveau, sport préféré, personnalité du coach, langue</li>
+    </ul>
 
-### Appareil et abonnement
-- Identifiant persistant d’appareil (gestion quota/abonnement)
-- Version app/iOS
-- Données de reçu Apple pour vérifier les achats intégrés
+    <h3>Appareil et abonnement</h3>
+    <ul>
+      <li>Identifiant persistant d’appareil (gestion quota/abonnement)</li>
+      <li>Version app/iOS</li>
+      <li>Données de reçu Apple pour vérifier les achats intégrés</li>
+    </ul>
 
-## 2. Utilisation des données {#use}
-- Générer des retours de coaching
-- Personnaliser le style de coaching
-- Gérer les limites gratuit/premium
-- Maintenir la qualité et la fiabilité du service
+    <h2 id="use">2. Utilisation des données</h2>
+    <ul>
+      <li>Générer des retours de coaching</li>
+      <li>Personnaliser le style de coaching</li>
+      <li>Gérer les limites gratuit/premium</li>
+      <li>Maintenir la qualité et la fiabilité du service</li>
+    </ul>
 
-## 3. Partage des données {#share}
-### OpenAI (via notre backend)
-Les métriques d’entraînement sont envoyées à OpenAI pour générer les retours de coaching.
+    <h2 id="share">3. Partage des données</h2>
+    <h3>OpenAI (via notre backend)</h3>
+    <p>Les métriques d’entraînement sont envoyées à OpenAI pour générer les retours de coaching.</p>
 
-### Apple
-Les reçus d’achat sont vérifiés auprès d’Apple pour le statut d’abonnement.
+    <h3>Apple</h3>
+    <p>Les reçus d’achat sont vérifiés auprès d’Apple pour le statut d’abonnement.</p>
 
-### Nous ne faisons pas
-- Vente de données personnelles
-- Partage de données santé à des fins publicitaires
-- Tracking publicitaire tiers
+    <h3>Nous ne faisons pas</h3>
+    <ul>
+      <li>Vente de données personnelles</li>
+      <li>Partage de données santé à des fins publicitaires</li>
+      <li>Tracking publicitaire tiers</li>
+    </ul>
 
-## 4. Stockage et conservation
-- Le cache local reste sur l’appareil jusqu’à suppression de l’app
-- Les métadonnées d’abonnement sont conservées pour l’opération du service et les obligations légales/comptables
-- Les métriques d’entraînement sont traitées pour l’analyse et ne constituent pas une archive brute long terme
+    <h2>4. Stockage et conservation</h2>
+    <ul>
+      <li>Le cache local reste sur l’appareil jusqu’à suppression de l’app</li>
+      <li>Les métadonnées d’abonnement sont conservées pour l’opération du service et les obligations légales/comptables</li>
+      <li>Les métriques d’entraînement sont traitées pour l’analyse et ne constituent pas une archive brute long terme</li>
+    </ul>
 
-## 5. Vos droits {#rights}
-- Révoquer l’accès HealthKit dans les réglages iOS
-- Demander la suppression des données backend par email
-- Gérer les abonnements dans les réglages Apple
+    <h2 id="rights">5. Vos droits</h2>
+    <ul>
+      <li>Révoquer l’accès HealthKit dans les réglages iOS</li>
+      <li>Demander la suppression des données backend par email</li>
+      <li>Gérer les abonnements dans les réglages Apple</li>
+    </ul>
 
-## 6. Enfants
-Horo Coach n’est pas destinée aux utilisateurs de moins de 13 ans.
+    <h2>6. Enfants</h2>
+    <p>Horo Coach n’est pas destinée aux utilisateurs de moins de 13 ans.</p>
 
-## 7. Transferts internationaux
-Les données peuvent être traitées hors de votre pays de résidence avec des garanties adaptées.
+    <h2>7. Transferts internationaux</h2>
+    <p>Les données peuvent être traitées hors de votre pays de résidence avec des garanties adaptées.</p>
 
-## 8. Évolutions de la politique
-Les changements significatifs sont reflétés par la mise à jour de cette page et de sa date.
+    <h2>8. Évolutions de la politique</h2>
+    <p>Les changements significatifs sont reflétés par la mise à jour de cette page et de sa date.</p>
 
-## 9. Droits régionaux
-### RGPD (EEE)
-Accès, rectification, suppression, limitation, opposition, portabilité.
+    <h2>9. Droits régionaux</h2>
+    <h3>RGPD (EEE)</h3>
+    <p>Accès, rectification, suppression, limitation, opposition, portabilité.</p>
 
-### CCPA (Californie)
-Droit de savoir, supprimer, non-discrimination. Horo ne vend pas de données personnelles.
+    <h3>CCPA (Californie)</h3>
+    <p>Droit de savoir, supprimer, non-discrimination. Horo ne vend pas de données personnelles.</p>
 
-## 10. Contact {#contact}
-- **Email :** `paraita@paraita.io`
-- **Support :** [Page de support](support-fr.html)
+    <h2 id="contact">10. Contact</h2>
+    <ul>
+      <li><strong>Email :</strong> <code>paraita@paraita.io</code></li>
+      <li><strong>Support :</strong> <a href="support-fr.html">Page de support</a></li>
+    </ul>
   </article>
 </section>

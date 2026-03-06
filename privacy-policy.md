@@ -22,69 +22,85 @@ description: Privacy policy for Horo Coach.
     <a href="#contact">Contact</a>
   </div>
 
-  <article class="prose" markdown="1">
-## Overview
-Horo Coach is an iOS/iPadOS app that analyzes workout metrics from Apple Health (including workouts recorded via Apple Watch) to provide AI-generated coaching feedback.
+  <article class="prose">
+    <h2 id="collect">Overview</h2>
+    <p>Horo Coach is an iOS/iPadOS app that analyzes workout metrics from Apple Health (including workouts recorded via Apple Watch) to provide AI-generated coaching feedback.</p>
 
-## 1. Data We Collect {#collect}
-### Workout metrics
-- Distance, pace, duration, heart rate, cadence, and sport-specific metrics
-- Collected only after HealthKit permission and only for selected workouts
+    <h2>1. Data We Collect</h2>
+    <h3>Workout metrics</h3>
+    <ul>
+      <li>Distance, pace, duration, heart rate, cadence, and activity-specific metrics</li>
+      <li>Collected only after HealthKit permission and only for selected workouts</li>
+    </ul>
 
-### User preferences
-- Goal, level, preferred sport, coach personality, language
+    <h3>User preferences</h3>
+    <ul>
+      <li>Goal, level, preferred sport, coach personality, language</li>
+    </ul>
 
-### Device and subscription data
-- Persistent device identifier (for quota/subscription state)
-- App/iOS version
-- Apple receipt data for in-app purchase verification
+    <h3>Device and subscription data</h3>
+    <ul>
+      <li>Persistent device identifier (for quota/subscription state)</li>
+      <li>App/iOS version</li>
+      <li>Apple receipt data for in-app purchase verification</li>
+    </ul>
 
-## 2. How We Use Data {#use}
-- Generate coaching feedback
-- Personalize coaching style
-- Manage free/premium limits
-- Maintain app quality and reliability
+    <h2 id="use">2. How We Use Data</h2>
+    <ul>
+      <li>Generate coaching feedback</li>
+      <li>Personalize coaching style</li>
+      <li>Manage free/premium limits</li>
+      <li>Maintain app quality and reliability</li>
+    </ul>
 
-## 3. How Data Is Shared {#share}
-### OpenAI (via our backend)
-Workout metrics are sent to OpenAI to generate coaching feedback.
+    <h2 id="share">3. How Data Is Shared</h2>
+    <h3>OpenAI (via our backend)</h3>
+    <p>Workout metrics are sent to OpenAI to generate coaching feedback.</p>
 
-### Apple
-Purchase receipts are verified with Apple for subscription status.
+    <h3>Apple</h3>
+    <p>Purchase receipts are verified with Apple for subscription status.</p>
 
-### We do not
-- Sell personal data
-- Share health data for advertising
-- Use third-party ad trackers
+    <h3>We do not</h3>
+    <ul>
+      <li>Sell personal data</li>
+      <li>Share health data for advertising</li>
+      <li>Use third-party ad trackers</li>
+    </ul>
 
-## 4. Storage and Retention
-- Local cache stays on device until app deletion
-- Subscription metadata is retained for service operations and legal/accounting needs
-- Workout metrics are processed for analysis and not kept as a long-term raw archive
+    <h2>4. Storage and Retention</h2>
+    <ul>
+      <li>Local cache stays on device until app deletion</li>
+      <li>Subscription metadata is retained for service operations and legal/accounting needs</li>
+      <li>Workout metrics are processed for analysis and not kept as a long-term raw archive</li>
+    </ul>
 
-## 5. Your Rights {#rights}
-- Revoke HealthKit access in iOS settings
-- Request backend data deletion by email
-- Manage subscriptions through Apple settings
+    <h2 id="rights">5. Your Rights</h2>
+    <ul>
+      <li>Revoke HealthKit access in iOS settings</li>
+      <li>Request backend data deletion by email</li>
+      <li>Manage subscriptions through Apple settings</li>
+    </ul>
 
-## 6. Children
-Horo Coach is not intended for users under 13.
+    <h2>6. Children</h2>
+    <p>Horo Coach is not intended for users under 13.</p>
 
-## 7. International Transfers
-Data may be processed in countries outside your residence with appropriate safeguards.
+    <h2>7. International Transfers</h2>
+    <p>Data may be processed in countries outside your residence with appropriate safeguards.</p>
 
-## 8. Policy Changes
-Material changes will be reflected by updating this page and date.
+    <h2>8. Policy Changes</h2>
+    <p>Material changes will be reflected by updating this page and date.</p>
 
-## 9. Regional Rights
-### GDPR (EEA)
-Access, correction, deletion, restriction, objection, portability.
+    <h2>9. Regional Rights</h2>
+    <h3>GDPR (EEA)</h3>
+    <p>Access, correction, deletion, restriction, objection, portability.</p>
 
-### CCPA (California)
-Right to know, delete, and non-discrimination. Horo does not sell personal data.
+    <h3>CCPA (California)</h3>
+    <p>Right to know, delete, and non-discrimination. Horo does not sell personal data.</p>
 
-## 10. Contact {#contact}
-- **Email:** `paraita@paraita.io`
-- **Support:** [Support page](support.html)
+    <h2 id="contact">10. Contact</h2>
+    <ul>
+      <li><strong>Email:</strong> <code>paraita@paraita.io</code></li>
+      <li><strong>Support:</strong> <a href="support.html">Support page</a></li>
+    </ul>
   </article>
 </section>
