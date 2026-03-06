@@ -24,7 +24,7 @@ description: Politique de confidentialité de Horo Coach.
 
   <article class="prose" markdown="1">
 ## Vue d’ensemble
-Horo Coach est une app iOS/watchOS qui analyse les métriques d’entraînement Apple Santé pour fournir un feedback de coaching généré par IA.
+Horo Coach est une app iOS/iPadOS qui analyse les métriques d’entraînement Apple Santé (incluant les séances enregistrées via Apple Watch) pour fournir des retours de coaching générés par IA.
 
 ## 1. Données collectées {#collect}
 ### Métriques d’entraînement
@@ -40,14 +40,14 @@ Horo Coach est une app iOS/watchOS qui analyse les métriques d’entraînement 
 - Données de reçu Apple pour vérifier les achats intégrés
 
 ## 2. Utilisation des données {#use}
-- Générer le feedback de coaching
+- Générer des retours de coaching
 - Personnaliser le style de coaching
 - Gérer les limites gratuit/premium
 - Maintenir la qualité et la fiabilité du service
 
 ## 3. Partage des données {#share}
 ### OpenAI (via notre backend)
-Les métriques d’entraînement sont envoyées à OpenAI pour générer le feedback de coaching.
+Les métriques d’entraînement sont envoyées à OpenAI pour générer les retours de coaching.
 
 ### Apple
 Les reçus d’achat sont vérifiés auprès d’Apple pour le statut d’abonnement.

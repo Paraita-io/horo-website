@@ -11,7 +11,7 @@ description: Comparatif des offres gratuite et premium de Horo Coach.
 <section class="container legal-layout fade-in">
   <header class="page-header">
     <h1>Gratuit vs Premium</h1>
-    <p>Commence gratuitement, puis upgrade quand tu veux plus de profondeur d’analyse et de flexibilité côté coaching.</p>
+    <p>Commence avec l’offre gratuite, puis passe en Premium quand tu veux des analyses plus profondes et plus de choix de coachs.</p>
   </header>
 
   <section class="grid-2">
@@ -19,7 +19,7 @@ description: Comparatif des offres gratuite et premium de Horo Coach.
       <h3>Offre Gratuite</h3>
       <ul>
         <li>Expérience d’analyse IA essentielle</li>
-        <li>Limite d’analyses quotidiennes</li>
+        <li>2 analyses par jour</li>
         <li>Choix parmi 3 coachs de base + le coach mystère saisonnier en cours</li>
         <li>Parfait pour découvrir Horo et créer une routine</li>
       </ul>
@@ -40,8 +40,8 @@ description: Comparatif des offres gratuite et premium de Horo Coach.
 
 | Fonctionnalité | Gratuit | Premium |
 |---|---|---|
-| Analyses | Limite quotidienne | **Illimitées** |
-| Métriques pertinentes selon l’activité | Insights essentiels | **Métriques avancées + contexte approfondi** |
+| Analyses | 2 par jour | **Illimitées** |
+| Métriques pertinentes selon l’activité | Indicateurs essentiels | **Métriques avancées + contexte approfondi** |
 | Accès coachs | 3 coachs de base + coach mystère saisonnier actuel | **Tous les coachs de base + tous les coachs saisonniers publiés** |
 | Idéal pour | Découverte et usage régulier | Progression data-driven avec objectif de performance |
 
@@ -51,7 +51,7 @@ Premium n’apporte pas seulement plus d’analyses. Il apporte une lecture plus
 
   <div class="cta-block">
     <h2>Entraîne-toi avec plus de clarté, de profondeur et de variété de coaching.</h2>
-    <p>Commence gratuitement aujourd’hui, puis débloque Premium pour analyses illimitées et insights avancés par activité.</p>
+    <p>Commence gratuitement aujourd’hui, puis débloque Premium pour des analyses illimitées et des indicateurs avancés par activité.</p>
     <a class="btn btn-secondary" href="#" aria-label="Télécharger Horo Coach sur l’App Store">Télécharger Horo Coach sur l’App Store</a>
   </div>
 </section>

@@ -6,6 +6,13 @@
 {% else %}
   {% assign lang_alt = page.url | replace: '.html', '-fr.html' %}
 {% endif %}
+{% if is_fr %}
+  {% assign en_url = lang_alt | remove_first: '/' %}
+  {% assign fr_url = page.url | remove_first: '/' %}
+{% else %}
+  {% assign en_url = page.url | remove_first: '/' %}
+  {% assign fr_url = lang_alt | remove_first: '/' %}
+{% endif %}
 
 <header class="site-header" data-header>
   <a href="#main-content" class="skip-link">{% if is_fr %}Aller au contenu{% else %}Skip to content{% endif %}</a>
@@ -26,11 +33,12 @@
       <a href="{% if is_fr %}press-kit-fr.html{% else %}press-kit.html{% endif %}" {% if page.nav_key == 'press' %}aria-current="page"{% endif %}>{% if is_fr %}Press Kit{% else %}Press Kit{% endif %}</a>
       <a href="{% if is_fr %}support-fr.html{% else %}support.html{% endif %}" {% if page.nav_key == 'support' %}aria-current="page"{% endif %}>{% if is_fr %}Support{% else %}Support{% endif %}</a>
       <a href="{% if is_fr %}privacy-policy-fr.html{% else %}privacy-policy.html{% endif %}" {% if page.nav_key == 'privacy' %}aria-current="page"{% endif %}>{% if is_fr %}Confidentialité{% else %}Privacy{% endif %}</a>
-      <a href="{% if is_fr %}privacy-choices-fr.html{% else %}privacy-choices.html{% endif %}" {% if page.nav_key == 'choices' %}aria-current="page"{% endif %}>{% if is_fr %}Choix Privacy{% else %}Privacy Choices{% endif %}</a>
+      <a href="{% if is_fr %}privacy-choices-fr.html{% else %}privacy-choices.html{% endif %}" {% if page.nav_key == 'choices' %}aria-current="page"{% endif %}>{% if is_fr %}Choix de confidentialité{% else %}Privacy Choices{% endif %}</a>
     </nav>
 
-    <a class="lang-switch" href="{{ lang_alt | remove_first: '/' }}" aria-label="{% if is_fr %}Switch to English{% else %}Passer en français{% endif %}">
-      {% if is_fr %}EN{% else %}FR{% endif %}
-    </a>
+    <div class="lang-switcher" aria-label="{% if is_fr %}Sélecteur de langue{% else %}Language switcher{% endif %}">
+      <a class="lang-switch {% unless is_fr %}active{% endunless %}" href="{{ en_url }}" lang="en" aria-current="{% unless is_fr %}true{% else %}false{% endunless %}">EN</a>
+      <a class="lang-switch {% if is_fr %}active{% endif %}" href="{{ fr_url }}" lang="fr" aria-current="{% if is_fr %}true{% else %}false{% endif %}">FR</a>
+    </div>
   </div>
 </header>

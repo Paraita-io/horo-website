@@ -24,7 +24,7 @@ description: Privacy policy for Horo Coach.
 
   <article class="prose" markdown="1">
 ## Overview
-Horo Coach is an iOS/watchOS app that analyzes workout metrics from Apple Health to provide AI-generated coaching feedback.
+Horo Coach is an iOS/iPadOS app that analyzes workout metrics from Apple Health (including workouts recorded via Apple Watch) to provide AI-generated coaching feedback.
 
 ## 1. Data We Collect {#collect}
 ### Workout metrics

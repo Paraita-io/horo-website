@@ -34,7 +34,7 @@ description: Gérer vos choix de confidentialité dans Horo Coach.
 
 ### Langue et préférences de coaching
 - Gérer dans les paramètres de Horo
-- Les changements s’appliquent au feedback futur
+- Les changements s’appliquent aux retours futurs
   </article>
 
   <article id="deletion" class="prose" markdown="1">
@@ -51,7 +51,7 @@ Envoyez un email à `paraita@paraita.io` pour demander la suppression. Réponse 
 ## Partage avec des tiers
 
 ### OpenAI
-Les métriques d’entraînement peuvent être traitées par OpenAI (via notre backend) pour générer le feedback de coaching.
+Les métriques d’entraînement peuvent être traitées par OpenAI (via notre backend) pour générer les retours de coaching.
 
 ### Apple
 Les données de reçu d’achat sont traitées par Apple pour vérifier l’abonnement.

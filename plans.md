@@ -11,7 +11,7 @@ description: Compare Horo Coach free and premium plans.
 <section class="container legal-layout fade-in">
   <header class="page-header">
     <h1>Free vs Premium</h1>
-    <p>Start free and upgrade when you want deeper analysis and more coaching flexibility.</p>
+    <p>Start with the free plan, then upgrade when you want deeper insights and broader coach access.</p>
   </header>
 
   <section class="grid-2">
@@ -19,18 +19,18 @@ description: Compare Horo Coach free and premium plans.
       <h3>Free Plan</h3>
       <ul>
         <li>Core AI analysis experience</li>
-        <li>Daily analysis limit</li>
+        <li>2 analyses per day</li>
         <li>Coach selection among 3 core coaches + current seasonal mystery coach</li>
-        <li>Perfect to discover Horo and build routine</li>
+        <li>Great for discovering Horo and building consistency</li>
       </ul>
     </article>
     <article class="card">
       <h3>Premium Plan</h3>
       <ul>
-        <li><strong>Unlimited analyses</strong></li>
+        <li><strong>Unlimited analysis</strong></li>
         <li><strong>Advanced metrics by activity type</strong></li>
         <li><strong>Unlock all seasonal coaches once released</strong></li>
-        <li>Designed for users who want maximum depth and progression</li>
+        <li>Best for athletes who want maximum depth and faster progression</li>
       </ul>
     </article>
   </section>
@@ -40,13 +40,13 @@ description: Compare Horo Coach free and premium plans.
 
 | Feature | Free | Premium |
 |---|---|---|
-| Analyses | Daily limit | **Unlimited** |
+| Analysis | 2 per day | **Unlimited** |
 | Relevant metrics by activity type | Core insights | **Advanced metrics + deeper context** |
 | Coach access | 3 core coaches + current seasonal mystery coach | **All core coaches + all seasonal coaches released** |
 | Best for | Getting started and regular use | High-consistency, data-driven progression |
 
 ## Why Upgrade?
-Premium gives you more than volume. It gives you deeper interpretation per activity and long-term access to every seasonal coaching style.
+Premium gives you more than volume: it gives you richer interpretation by activity type and long-term access to every seasonal coaching style.
   </article>
 
   <div class="cta-block">

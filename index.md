@@ -19,7 +19,7 @@ description: Horo Coach turns Apple Watch workout data into clear, actionable AI
     <p>Horo Coach analyzes workouts recorded from Apple Watch and Apple Health, then gives clear feedback and concrete next steps in your preferred coaching tone.</p>
     <div class="hero-actions">
       <a class="btn btn-primary" href="#" aria-label="Download on the App Store">Download on the App Store</a>
-      <a class="btn btn-secondary" href="plans.html">See Free vs Premium</a>
+      <a class="btn btn-secondary" href="plans.html">Compare Free vs Premium</a>
     </div>
   </div>
 
@@ -102,23 +102,23 @@ description: Horo Coach turns Apple Watch workout data into clear, actionable AI
 
 <section class="container fade-in">
   <h2 class="section-title">Meet the coaches</h2>
-  <p class="section-lead">Choose the voice that motivates you best. And watch for the seasonal mystery coach.</p>
+  <p class="section-lead">Choose the coaching personality that fits you best. The fourth slot is a seasonal mystery coach.</p>
   <div class="carousel-wrap" data-carousel style="margin-top: 1rem;">
     <div class="carousel-track" data-carousel-track>
       <article class="coach-card">
         <span class="coach-tag">Core Coach</span>
-        <h3>Pulse</h3>
-        <p>Direct and performance-driven. Focuses on execution and consistency.</p>
+        <h3>Harmonie</h3>
+        <p>Holistic coach focused on balance, energy and sustainable progress.</p>
       </article>
       <article class="coach-card">
         <span class="coach-tag">Core Coach</span>
-        <h3>Flow</h3>
-        <p>Balanced and supportive. Great for sustainable progress and routine.</p>
+        <h3>Carl</h3>
+        <p>Data-driven analyst who translates metrics into precise action.</p>
       </article>
       <article class="coach-card">
         <span class="coach-tag">Core Coach</span>
-        <h3>Vector</h3>
-        <p>Analytical and precise. Ideal for data-driven athletes.</p>
+        <h3>Sarge Kruger</h3>
+        <p>High-discipline coach with direct feedback and a no-excuses tone.</p>
       </article>
       <article class="coach-card">
         <span class="coach-tag">Seasonal Coach</span>
@@ -146,7 +146,7 @@ description: Horo Coach turns Apple Watch workout data into clear, actionable AI
     </article>
     <article class="card">
       <h3>Multiple coach personalities</h3>
-      <p>Pick the style that helps you stay consistent.</p>
+      <p>Three core coaches plus a rotating seasonal mystery coach.</p>
     </article>
     <article class="card">
       <h3>Built for iOS and iPadOS</h3>

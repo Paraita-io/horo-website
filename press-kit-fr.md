@@ -24,7 +24,7 @@ description: Ressources presse Horo Coach : description produit, fonctionnalité
 
   <article id="product" class="prose">
     <h2>Description Produit</h2>
-    <p>Horo Coach est un compagnon iOS/watchOS qui transforme les métriques d’entraînement Apple Santé en feedback de coaching clair et actionnable, généré par IA. L’objectif: comprendre non seulement ce qui s’est passé, mais quoi améliorer ensuite.</p>
+    <p>Horo Coach est une app iOS/iPadOS qui transforme les métriques d’entraînement Apple Santé (incluant les séances enregistrées via Apple Watch) en retours de coaching clairs et actionnables, générés par IA. L’objectif: comprendre non seulement ce qui s’est passé, mais quoi améliorer ensuite.</p>
     <p><strong>Positionnement:</strong> Coaching premium iOS/iPadOS pour utilisateurs santé/fitness qui veulent des recommandations utiles et concrètes basées sur leurs entraînements.</p>
   </article>
 
@@ -76,7 +76,7 @@ description: Ressources presse Horo Coach : description produit, fonctionnalité
         </article>
         <article class="shot">
           <h3>Analyse d’entraînement</h3>
-          <p>Feedback IA structuré avec forces et axes d’amélioration.</p>
+          <p>Retour IA structuré avec forces et axes d’amélioration.</p>
         </article>
         <article class="shot">
           <h3>Styles de coach</h3>

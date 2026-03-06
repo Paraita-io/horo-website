@@ -16,10 +16,10 @@ description: Horo Coach transforme les données Apple Watch en coaching IA clair
       <span class="badge">Conçu à Tahiti</span>
     </div>
     <h1>Entraîne-toi plus intelligemment avec un coaching qui dit quoi améliorer.</h1>
-    <p>Horo Coach analyse les séances enregistrées via Apple Watch et Apple Santé, puis te donne un feedback clair et des actions concrètes selon le style de coach que tu préfères.</p>
+    <p>Horo Coach analyse les séances enregistrées via Apple Watch et Apple Santé, puis te donne un retour clair et des actions concrètes selon le style de coach que tu préfères.</p>
     <div class="hero-actions">
       <a class="btn btn-primary" href="#" aria-label="Télécharger sur l’App Store">Télécharger sur l’App Store</a>
-      <a class="btn btn-secondary" href="plans-fr.html">Voir Gratuit vs Premium</a>
+      <a class="btn btn-secondary" href="plans-fr.html">Comparer Gratuit et Premium</a>
     </div>
   </div>
 
@@ -38,7 +38,7 @@ description: Horo Coach transforme les données Apple Watch en coaching IA clair
     </div>
     <div class="iphone-mock">
       <div class="mock-screen">
-        <p class="mock-title">Aujourd’hui : Analyse running</p>
+        <p class="mock-title">Aujourd’hui : Analyse course</p>
         <div class="mock-lines">
           <span style="width: 92%"></span>
           <span style="width: 78%"></span>
@@ -68,7 +68,7 @@ description: Horo Coach transforme les données Apple Watch en coaching IA clair
     </article>
     <article class="card">
       <h3>Expliquer</h3>
-      <p>Le feedback est clair, utile, jamais chargé.</p>
+      <p>Le retour est clair, utile, jamais chargé.</p>
     </article>
     <article class="card">
       <h3>Améliorer</h3>
@@ -85,7 +85,7 @@ description: Horo Coach transforme les données Apple Watch en coaching IA clair
       <p>Synchronise Apple Santé avec les entraînements enregistrés par Apple Watch et apps compatibles.</p>
     </article>
     <article class="card step">
-      <h3>Recevoir le feedback IA</h3>
+      <h3>Recevoir le retour IA</h3>
       <p>Horo identifie points forts, inefficacités et signaux de progression.</p>
     </article>
     <article class="card step">
@@ -102,23 +102,23 @@ description: Horo Coach transforme les données Apple Watch en coaching IA clair
 
 <section class="container fade-in">
   <h2 class="section-title">Découvre les coachs</h2>
-  <p class="section-lead">Choisis la voix qui te motive le mieux. Et garde un œil sur le coach mystère saisonnier.</p>
+  <p class="section-lead">Choisis la personnalité de coaching qui te correspond. La quatrième place est réservée au coach mystère saisonnier.</p>
   <div class="carousel-wrap" data-carousel style="margin-top: 1rem;">
     <div class="carousel-track" data-carousel-track>
       <article class="coach-card">
         <span class="coach-tag">Coach de base</span>
-        <h3>Pulse</h3>
-        <p>Direct et orienté performance. Focus sur l’exécution et la régularité.</p>
+        <h3>Harmonie</h3>
+        <p>Coach holistique orientée équilibre, énergie et progression durable.</p>
       </article>
       <article class="coach-card">
         <span class="coach-tag">Coach de base</span>
-        <h3>Flow</h3>
-        <p>Équilibré et bienveillant. Idéal pour progresser durablement.</p>
+        <h3>Carl</h3>
+        <p>Analyste orienté données qui transforme les métriques en actions précises.</p>
       </article>
       <article class="coach-card">
         <span class="coach-tag">Coach de base</span>
-        <h3>Vector</h3>
-        <p>Analytique et précis. Parfait pour les profils data-driven.</p>
+        <h3>Sarge Kruger</h3>
+        <p>Coach discipliné au ton direct, sans excuses, pour se dépasser.</p>
       </article>
       <article class="coach-card">
         <span class="coach-tag">Coach saisonnier</span>
@@ -146,7 +146,7 @@ description: Horo Coach transforme les données Apple Watch en coaching IA clair
     </article>
     <article class="card">
       <h3>Plusieurs personnalités de coach</h3>
-      <p>Choisis le style qui t’aide à rester constant.</p>
+      <p>Trois coachs de base + un coach mystère saisonnier en rotation.</p>
     </article>
     <article class="card">
       <h3>Conçu pour iOS et iPadOS</h3>
@@ -165,7 +165,7 @@ description: Horo Coach transforme les données Apple Watch en coaching IA clair
         <p>Vue rapide de l’effort avant lecture complète de l’analyse.</p>
       </article>
       <article class="shot">
-        <h3>Feedback coach</h3>
+        <h3>Retour du coach</h3>
         <p>Forces, axes d’amélioration et priorités immédiates.</p>
       </article>
       <article class="shot">
@@ -205,7 +205,7 @@ description: Horo Coach transforme les données Apple Watch en coaching IA clair
 <section class="container fade-in">
   <div class="cta-block">
     <h2>Ta prochaine progression commence après ta prochaine séance.</h2>
-    <p>Commence gratuitement, puis passe en Premium pour des analyses illimitées et des insights avancés par activité.</p>
+    <p>Commence gratuitement, puis passe en Premium pour des analyses illimitées et des indicateurs avancés par activité.</p>
     <div class="hero-actions">
       <a class="btn btn-secondary" href="#" aria-label="Télécharger Horo Coach sur l’App Store">Télécharger Horo Coach sur l’App Store</a>
       <a class="btn btn-secondary" href="plans-fr.html">Comparer les offres</a>

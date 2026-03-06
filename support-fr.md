@@ -35,7 +35,7 @@ Ajoutez votre modèle d’iPhone, version iOS et une description courte du probl
 ## Questions fréquentes
 
 ### Qu’est-ce que Horo Coach ?
-Horo Coach analyse les entraînements Apple Santé et fournit un feedback IA actionnable.
+Horo Coach analyse les entraînements Apple Santé et fournit un retour IA actionnable.
 
 ### Quels sports sont supportés ?
 Course, vélo, natation et marche sont pleinement supportés.
