@@ -14,6 +14,7 @@ description: Support Horo Coach et FAQ.
     <p>Réponses rapides sur la configuration, les problèmes techniques, l’abonnement et la confidentialité.</p>
   </header>
 
+  <p><a class="text-link" href="get-started-fr.html">Première visite ? Suis le guide de démarrage →</a></p>
   <div class="quick-links">
     <a href="#contact">Contact</a>
     <a href="#faq">FAQ</a>
@@ -25,7 +26,7 @@ description: Support Horo Coach et FAQ.
   <article id="contact" class="prose">
     <h2>Contact</h2>
     <ul>
-      <li><strong>Email :</strong> <code>paraita@paraita.io</code></li>
+      <li><strong>Email :</strong> <a class="text-link" href="mailto:paraita@paraita.io">paraita@paraita.io</a></li>
       <li><strong>Délai de réponse :</strong> généralement 24-48h ouvrées</li>
     </ul>
     <p>Ajoutez votre modèle d’iPhone, version iOS et une description courte du problème pour accélérer la résolution.</p>
@@ -56,7 +57,7 @@ description: Support Horo Coach et FAQ.
 
     <h3>Offre gratuite</h3>
     <ul>
-      <li>2 analyses par jour</li>
+      <li>Quota quotidien d’analyses (quota actuel indiqué dans l’app)</li>
       <li>Accès aux coachs de base</li>
       <li>Métriques essentielles et adaptées selon l’activité</li>
     </ul>
@@ -100,7 +101,7 @@ description: Support Horo Coach et FAQ.
   <article id="privacy" class="prose">
     <h2>Demandes de confidentialité</h2>
     <ul>
-      <li><strong>Supprimer les données backend :</strong> envoyer un email à <code>paraita@paraita.io</code></li>
+      <li><strong>Supprimer les données backend :</strong> envoyer un email à <a class="text-link" href="mailto:paraita@paraita.io">paraita@paraita.io</a></li>
       <li><strong>Supprimer les données locales :</strong> désinstaller l’app</li>
       <li><strong>En savoir plus :</strong> <a href="privacy-policy-fr.html">Politique de confidentialité</a> et <a href="privacy-choices-fr.html">Choix de confidentialité</a></li>
     </ul>

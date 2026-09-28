@@ -1,0 +1,9 @@
+---
+layout: null
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+{% assign html_pages = site.pages | sort: 'url' %}{% for item in html_pages %}{% if item.lang %}
+  <url><loc>{{ item.url | replace: 'index.html', '' | absolute_url | xml_escape }}</loc></url>
+{% endif %}{% endfor %}
+</urlset>

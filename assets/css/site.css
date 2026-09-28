@@ -624,8 +624,8 @@ section {
 }
 
 .fade-in {
-  opacity: 0;
-  transform: translateY(18px);
+  opacity: 1;
+  transform: none;
   transition: opacity 550ms ease, transform 550ms ease;
 }
 
@@ -732,4 +732,40 @@ section {
   .carousel-track {
     grid-auto-columns: minmax(35%, 1fr);
   }
+}
+
+/* Conversion and first-session guidance: content remains visible without JS. */
+.text-accent { color: #086b78; }
+.text-link, .prose a { color: #0759a8; text-decoration: underline; text-underline-offset: 0.2em; }
+:focus-visible { outline: 3px solid #0759a8; outline-offset: 4px; }
+[id] { scroll-margin-top: 7rem; }
+.hero .compatibility { margin-top: 1rem; font-size: 0.88rem; }
+.example-card { background: #fff; border: 1px solid var(--line); border-radius: 28px; padding: clamp(1.25rem, 3vw, 2rem); box-shadow: var(--shadow-card); }
+.example-card h2 { font-family: Manrope, sans-serif; font-size: 1.65rem; line-height: 1.2; }
+.example-heading { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 0.5rem; color: var(--muted); font-size: 0.85rem; }
+.metric-row { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0.5rem; padding-block: 1rem; border-block: 1px solid var(--line); }
+.metric-row strong { display: block; font-size: clamp(1.2rem, 2vw, 1.7rem); }
+.metric-row small { font-size: 0.75rem; }
+.metric-row span { color: var(--muted); font-size: 0.8rem; }
+.coach-note { display: flex; align-items: center; gap: 0.8rem; margin-top: 1.5rem; }
+.coach-note img { border-radius: 50%; object-fit: cover; }
+.hero .coach-note p, .hero .example-card > p { font-size: 1rem; margin: 0.5rem 0; }
+.hero .example-card .fine-print { font-size: 0.8rem; margin-top: 1rem; }
+.section-grid { margin-block: 1.5rem; }
+.step-label, .eyebrow { display: block; color: #086b78; font-weight: 700; margin-bottom: 0.65rem; }
+.return-panel { display: flex; align-items: center; gap: 2rem; }
+.return-panel > div { flex: 1; }
+.return-panel .btn { flex-shrink: 0; }
+.faq details { padding: 1.25rem 0; border-bottom: 1px solid var(--line); }
+.faq summary { cursor: pointer; font-weight: 700; }
+.faq details p { max-width: 75ch; color: var(--muted); }
+.faq a { text-decoration: underline; }
+.founder-note { max-width: 720px; }
+.brand { flex-shrink: 0; }
+@media (max-width: 860px) {
+  .return-panel { flex-direction: column; align-items: flex-start; gap: 1rem; }
+  .hero { gap: 2rem; }
+}
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { transition: none !important; animation: none !important; scroll-behavior: auto !important; }
 }

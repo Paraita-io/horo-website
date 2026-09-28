@@ -8,29 +8,20 @@
       navToggle.setAttribute('aria-expanded', String(isOpen));
     });
 
+    document.addEventListener('keydown', (event) => {
+      if (event.key === 'Escape' && nav.classList.contains('open')) {
+        nav.classList.remove('open');
+        navToggle.setAttribute('aria-expanded', 'false');
+        navToggle.focus();
+      }
+    });
+
     nav.addEventListener('click', (event) => {
       if (event.target instanceof HTMLAnchorElement) {
         nav.classList.remove('open');
         navToggle.setAttribute('aria-expanded', 'false');
       }
     });
-  }
-
-  const fadeEls = document.querySelectorAll('.fade-in');
-  if (fadeEls.length) {
-    const observer = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            entry.target.classList.add('visible');
-            observer.unobserve(entry.target);
-          }
-        });
-      },
-      { threshold: 0.12 }
-    );
-
-    fadeEls.forEach((el) => observer.observe(el));
   }
 
   const carousels = document.querySelectorAll('[data-carousel]');
@@ -47,7 +38,7 @@
       const card = track.firstElementChild;
       const gap = 12;
       const step = card ? card.getBoundingClientRect().width + gap : 260;
-      track.scrollBy({ left: direction * step, behavior: 'smooth' });
+      track.scrollBy({ left: direction * step, behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth' });
     };
 
     prevBtn.addEventListener('click', () => scrollByCard(-1));

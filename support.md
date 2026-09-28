@@ -14,6 +14,7 @@ description: Horo Coach support and FAQ.
     <p>Fast answers for setup, troubleshooting, subscriptions and privacy questions.</p>
   </header>
 
+  <p><a class="text-link" href="get-started.html">New to Horo? Follow the getting-started guide →</a></p>
   <div class="quick-links">
     <a href="#contact">Contact</a>
     <a href="#faq">FAQ</a>
@@ -25,7 +26,7 @@ description: Horo Coach support and FAQ.
   <article id="contact" class="prose">
     <h2>Contact</h2>
     <ul>
-      <li><strong>Email:</strong> <code>paraita@paraita.io</code></li>
+      <li><strong>Email:</strong> <a class="text-link" href="mailto:paraita@paraita.io">paraita@paraita.io</a></li>
       <li><strong>Response time:</strong> usually 24-48 business hours</li>
     </ul>
     <p>Include your iPhone model, iOS version, and a short issue description to speed up support.</p>
@@ -56,7 +57,7 @@ description: Horo Coach support and FAQ.
 
     <h3>Free plan</h3>
     <ul>
-      <li>2 analyses per day</li>
+      <li>Daily analysis allowance (see your current quota in the app)</li>
       <li>Core coach access</li>
       <li>Core and adapted activity metrics</li>
     </ul>
@@ -100,7 +101,7 @@ description: Horo Coach support and FAQ.
   <article id="privacy" class="prose">
     <h2>Privacy Requests</h2>
     <ul>
-      <li><strong>Delete backend data:</strong> email <code>paraita@paraita.io</code></li>
+      <li><strong>Delete backend data:</strong> email <a class="text-link" href="mailto:paraita@paraita.io">paraita@paraita.io</a></li>
       <li><strong>Delete local app data:</strong> remove the app from iPhone</li>
       <li><strong>Learn more:</strong> <a href="privacy-policy.html">Privacy Policy</a> and <a href="privacy-choices.html">Privacy Choices</a></li>
     </ul>

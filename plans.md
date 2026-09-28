@@ -19,7 +19,7 @@ description: Compare Horo Coach free and premium plans.
       <h3>Free Plan</h3>
       <ul>
         <li>Core AI analysis experience</li>
-        <li>2 analyses per day</li>
+        <li>Daily analysis allowance (see your current quota in the app)</li>
         <li>Coach selection among 3 core coaches + current seasonal mystery coach</li>
         <li>Great for discovering Horo and building consistency</li>
       </ul>
@@ -30,7 +30,7 @@ description: Compare Horo Coach free and premium plans.
         <li><strong>Unlimited analysis</strong></li>
         <li><strong>Advanced metrics by activity type</strong></li>
         <li><strong>Unlock all seasonal coaches once released</strong></li>
-        <li>Best for athletes who want maximum depth and faster progression</li>
+        <li>Best for athletes who want more detailed workout insights</li>
       </ul>
     </article>
   </section>
@@ -48,7 +48,7 @@ description: Compare Horo Coach free and premium plans.
       <tbody>
         <tr>
           <td>Analysis</td>
-          <td>2 per day</td>
+          <td>Daily allowance shown in the app</td>
           <td><strong>Unlimited</strong></td>
         </tr>
         <tr>
@@ -73,9 +73,10 @@ description: Compare Horo Coach free and premium plans.
     <p>Premium gives you more than volume: it gives you richer interpretation by activity type and long-term access to every seasonal coaching style.</p>
   </article>
 
+  <p><a class="text-link" href="get-started.html">Start with your first analysis →</a></p>
   <div class="cta-block">
     <h2>Train with more clarity, depth, and coaching variety.</h2>
     <p>Start free today and unlock Premium when you want unlimited analysis and advanced activity-specific insights.</p>
-    <a class="btn btn-secondary" href="#" aria-label="Get Horo Coach on the App Store">Get Horo Coach on the App Store</a>
+    <a class="btn btn-secondary" href="{{ site.app_store_url }}" aria-label="Get Horo Coach on the App Store">Get Horo Coach on the App Store</a>
   </div>
 </section>

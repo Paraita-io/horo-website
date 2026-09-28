@@ -1,105 +1,48 @@
 ---
 layout: default
-title: Accueil
+title: "Comprendre tes séances Apple Watch"
 lang: fr
 lang_alt: /index.html
 nav_key: home
 page_class: landing
-description: Horo Coach transforme les données Apple Watch en coaching IA clair et actionnable sur iOS et iPadOS.
+description: "Horo Coach explique tes séances Apple Santé : course, vélo, natation. Découvre le retour de ton coach et prépare ta prochaine séance. Disponible sur iPhone et iPad."
 ---
 
-<section class="hero container fade-in">
+<section class="hero container">
   <div>
-    <div class="badge-row">
-      <span class="badge">App iOS + iPadOS</span>
-      <span class="badge">Coaching IA</span>
-      <span class="badge">Conçu à Tahiti</span>
-    </div>
-    <h1>Entraîne-toi plus intelligemment avec un coaching qui dit quoi améliorer.</h1>
-    <p>Horo Coach analyse les séances enregistrées via Apple Watch et Apple Santé, puis te donne un retour clair et des actions concrètes selon le style de coach que tu préfères.</p>
-    <div class="hero-actions">
-      <a class="btn btn-primary" href="#" aria-label="Télécharger sur l’App Store">Télécharger sur l’App Store</a>
-      <a class="btn btn-secondary" href="plans-fr.html">Comparer Gratuit et Premium</a>
-    </div>
+    <div class="badge-row"><span class="badge">Pour tes séances Apple Watch</span><span class="badge">Créé à Tahiti</span></div>
+    <h1>Ta montre enregistre.<br><span class="text-accent">Horo t’explique.</span></h1>
+    <p>Une allure, une fréquence cardiaque, une liste de chiffres. Qu’en retenir pour ton entraînement ? Horo transforme tes séances Apple Santé en un retour clair et une piste pour la prochaine sortie.</p>
+    <div class="hero-actions"><a class="btn btn-primary" href="{{ site.app_store_url }}">Télécharger gratuitement sur l’App Store</a><a class="btn btn-secondary" href="#example">Voir un exemple</a></div>
+    <p class="compatibility">Offre gratuite disponible · iOS / iPadOS 26 minimum · Français et anglais</p>
+    <a class="text-link" href="get-started-fr.html">Déjà installé ? Réussis ta première analyse →</a>
   </div>
-
-  <div class="device-showcase" aria-hidden="true">
-    <div class="ipad-mock">
-      <div class="mock-screen">
-        <p class="mock-title">Focus du coach</p>
-        <div class="mock-lines">
-          <span style="width: 86%"></span>
-          <span style="width: 64%"></span>
-          <span style="width: 73%"></span>
-          <span style="width: 91%"></span>
-          <span style="width: 55%"></span>
-        </div>
-      </div>
-    </div>
-    <div class="iphone-mock">
-      <div class="mock-screen">
-        <p class="mock-title">Aujourd’hui : Analyse course</p>
-        <div class="mock-lines">
-          <span style="width: 92%"></span>
-          <span style="width: 78%"></span>
-          <span style="width: 66%"></span>
-          <span style="width: 88%"></span>
-          <span style="width: 56%"></span>
-        </div>
-      </div>
-    </div>
-  </div>
+  <aside class="example-card" id="example" aria-label="Exemple illustratif de coaching">
+    <div class="example-heading"><span class="badge">Exemple illustratif</span><span>Course à pied</span></div>
+    <h2>Au-delà de l’allure et des kilomètres.</h2>
+    <div class="metric-row"><div><strong>5.0 <small>km</small></strong><span>Distance</span></div><div><strong>30:00</strong><span>Durée</span></div><div><strong>6:00 <small>/km</small></strong><span>Allure</span></div></div>
+    <div class="coach-note"><img src="assets/images/coaches/carl.png" width="48" height="48" alt="" /><div><strong>La question derrière les chiffres</strong><p>« Est-ce que cette sortie était aussi facile que prévu ? »</p></div></div>
+    <p>Horo s’appuie sur les métriques disponibles et ton profil pour te donner le point de vue d’un coach. Un chiffre seul ne raconte pas toute la séance.</p>
+    <p class="fine-print">Données fictives, ni capture de l’app ni analyse réelle. Le retour dépend des données disponibles.</p>
+  </aside>
 </section>
 
-<section class="container fade-in">
-  <div class="panel">
-    <h2 class="section-title">Les données fitness sont utiles. Une direction claire est mieux.</h2>
-    <p class="section-lead">Allure, cadence, puissance, fréquence cardiaque: utile, mais la vraie question reste la même après une séance: qu’est-ce que je dois changer ensuite ?</p>
-  </div>
+<section class="container" id="how-it-works">
+  <h2 class="section-title">Commence par une séance déjà enregistrée.</h2>
+  <p class="section-lead">Garde tes habitudes pour enregistrer tes entraînements.</p>
+  <div class="grid-3 section-grid">
+<article class="card"><span class="step-label">01</span><h3>Connecte Apple Santé</h3><p>Autorise Horo à lire tes séances et les métriques que tu souhaites partager.</p></article>
+<article class="card"><span class="step-label">02</span><h3>Ouvre une séance récente</h3><p>Choisis ton coach et ouvre une séance pour obtenir son retour. Une connexion Internet est nécessaire pour l’analyse.</p></article>
+<article class="card"><span class="step-label">03</span><h3>Retiens une idée pour la suite</h3><p>Lis le retour, retiens un point utile, puis reviens après ton prochain entraînement.</p></article>
+</div><p><a class="text-link" href="get-started-fr.html">Suivre le guide de démarrage →</a></p>
 </section>
-
-<section class="container fade-in">
-  <h2 class="section-title">Horo transforme l’analyse en action.</h2>
-  <p class="section-lead">Chaque analyse d’entraînement identifie les métriques pertinentes pour le type d’activité, explique ce qui compte, puis donne des améliorations concrètes pour la séance suivante.</p>
-  <div class="grid-3" style="margin-top: 1rem;">
-    <article class="card">
-      <h3>Analyser</h3>
-      <p>Les métriques spécifiques à l’activité sont sélectionnées automatiquement.</p>
-    </article>
-    <article class="card">
-      <h3>Expliquer</h3>
-      <p>Le retour est clair, utile, jamais chargé.</p>
-    </article>
-    <article class="card">
-      <h3>Améliorer</h3>
-      <p>Tu obtiens des actions immédiates à appliquer.</p>
-    </article>
-  </div>
-</section>
-
-<section class="container fade-in" id="how-it-works">
-  <h2 class="section-title">Comment ça marche</h2>
-  <div class="grid-3 steps" style="margin-top: 1rem;">
-    <article class="card step">
-      <h3>Importer les séances</h3>
-      <p>Synchronise Apple Santé avec les entraînements enregistrés par Apple Watch et apps compatibles.</p>
-    </article>
-    <article class="card step">
-      <h3>Recevoir le retour IA</h3>
-      <p>Horo identifie points forts, inefficacités et signaux de progression.</p>
-    </article>
-    <article class="card step">
-      <h3>Appliquer les recommandations</h3>
-      <p>Exécute des conseils ciblés à la prochaine séance.</p>
-    </article>
-  </div>
-</section>
-
-<section class="container fade-in">
-  <h2 class="section-title">Tous les types d’activités Apple Watch sont supportés</h2>
-  <p class="section-lead">Course, vélo, natation, HIIT, musculation, yoga, randonnée, rameur et tous les autres types d’entraînement Apple Watch sont pris en charge. Horo adapte la profondeur d’analyse à chaque activité et met en avant les métriques les plus pertinentes.</p>
-</section>
-
+<section class="container">
+<h2 class="section-title">Commence par ta prochaine course. Retrouve aussi tes autres sports.</h2>
+<div class="grid-3 section-grid">
+<article class="card"><h3>Course à pied</h3><p>Allure, fréquence cardiaque, cadence : replace les métriques disponibles dans le contexte de ta séance.</p></article>
+<article class="card"><h3>Vélo</h3><p>Va au-delà de la distance avec la fréquence cardiaque et la puissance lorsque ton enregistrement les contient.</p></article>
+<article class="card"><h3>Natation</h3><p>Explore ton allure, tes mouvements et ton SWOLF lorsqu’ils sont disponibles dans Apple Santé.</p></article>
+</div><p class="section-lead">La marche et d’autres types de séances sont aussi pris en charge. Les métriques disponibles dépendent de ton appareil, de l’app d’enregistrement et des autorisations.</p></section>
 <section class="container fade-in">
   <h2 class="section-title">Découvre les coachs</h2>
   <p class="section-lead">Choisis la personnalité de coaching qui te correspond. La quatrième place est réservée au coach mystère saisonnier.</p>
@@ -136,83 +79,18 @@ description: Horo Coach transforme les données Apple Watch en coaching IA clair
     </div>
   </div>
 </section>
-
-<section class="container fade-in">
-  <h2 class="section-title">Pourquoi les athlètes choisissent Horo</h2>
-  <div class="grid-2" style="margin-top: 1rem;">
-    <article class="card">
-      <h3>Feedback actionnable</h3>
-      <p>Des points de coaching précis, sans motivation générique.</p>
-    </article>
-    <article class="card">
-      <h3>Analyse IA orientée activité</h3>
-      <p>Les métriques sont interprétées selon le type d’entraînement.</p>
-    </article>
-    <article class="card">
-      <h3>Plusieurs personnalités de coach</h3>
-      <p>Trois coachs de base + un coach mystère saisonnier en rotation.</p>
-    </article>
-    <article class="card">
-      <h3>Conçu pour iOS et iPadOS</h3>
-      <p>Apple Watch enregistre la séance, Horo réalise l’analyse intelligente sur iPhone et iPad.</p>
-    </article>
+<section class="container">
+  <div class="panel return-panel">
+    <div><span class="eyebrow">Après ta prochaine séance</span><h2 class="section-title">Fais du débrief une habitude.</h2><p>Ouvre Horo une fois ta séance synchronisée avec Apple Santé. Lis le retour de ton coach et demande-toi : qu’est-ce que je garde, et qu’est-ce que j’essaie autrement ?</p></div>
+    <a class="btn btn-secondary" href="get-started-fr.html#next-workout">Préparer ton prochain débrief</a>
   </div>
 </section>
-
-<section class="container fade-in">
-  <h2 class="section-title">Captures</h2>
-  <p class="section-lead">Fais défiler les moments clés de l’expérience dans l’app.</p>
-  <div class="carousel-wrap" data-carousel style="margin-top: 1rem;">
-    <div class="carousel-track" data-carousel-track>
-      <article class="shot">
-        <h3>Résumé séance</h3>
-        <p>Vue rapide de l’effort avant lecture complète de l’analyse.</p>
-      </article>
-      <article class="shot">
-        <h3>Retour du coach</h3>
-        <p>Forces, axes d’amélioration et priorités immédiates.</p>
-      </article>
-      <article class="shot">
-        <h3>Plan de progression</h3>
-        <p>Recommandations ciblées pour la séance suivante.</p>
-      </article>
-      <article class="shot">
-        <h3>Changement de personnalité</h3>
-        <p>Choisis le style de coaching qui te motive le mieux.</p>
-      </article>
-    </div>
-    <div class="carousel-controls">
-      <button class="carousel-btn" data-carousel-prev aria-label="Capture précédente">←</button>
-      <button class="carousel-btn" data-carousel-next aria-label="Capture suivante">→</button>
-    </div>
-  </div>
+<section class="container faq">
+  <h2 class="section-title">Avant de commencer</h2>
+<details><summary>Puis-je essayer Horo gratuitement ?</summary><p>Oui. Une offre gratuite inclut un quota quotidien d’analyses. Ton quota actuel est indiqué dans l’app ; Premium reste facultatif.</p></details>
+<details><summary>Faut-il une Apple Watch ?</summary><p>Horo lit les séances d’Apple Santé, dont celles enregistrées par Apple Watch et les apps compatibles. Il faut des séances dans Apple Santé et un iPhone ou iPad sous la version 26 minimum.</p></details>
+<details><summary>Que deviennent les données de ma séance ?</summary><p>L’analyse transmet des métriques de séance à notre backend et à OpenAI pour générer le retour. Consulte la <a href="privacy-policy-fr.html">politique de confidentialité</a> avant de commencer.</p></details>
+<details><summary>Est-ce un programme d’entraînement ?</summary><p>Horo donne un retour sur tes séances enregistrées. Ce n’est ni un programme d’entraînement planifié ni un avis médical.</p></details>
 </section>
-
-<section class="container fade-in">
-  <h2 class="section-title">Pour qui ?</h2>
-  <div class="grid-3" style="margin-top: 1rem;">
-    <article class="card">
-      <h3>Débutants actifs</h3>
-      <p>Comprendre ses séances sans expertise sport-science.</p>
-    </article>
-    <article class="card">
-      <h3>Athlètes orientés régularité</h3>
-      <p>Progresser séance après séance avec des priorités claires.</p>
-    </article>
-    <article class="card">
-      <h3>Utilisateurs Apple orientés data</h3>
-      <p>Transformer Apple Santé en décisions concrètes.</p>
-    </article>
-  </div>
-</section>
-
-<section class="container fade-in">
-  <div class="cta-block">
-    <h2>Ta prochaine progression commence après ta prochaine séance.</h2>
-    <p>Commence gratuitement, puis passe en Premium pour des analyses illimitées et des indicateurs avancés par activité.</p>
-    <div class="hero-actions">
-      <a class="btn btn-secondary" href="#" aria-label="Télécharger Horo Coach sur l’App Store">Télécharger Horo Coach sur l’App Store</a>
-      <a class="btn btn-secondary" href="plans-fr.html">Comparer les offres</a>
-    </div>
-  </div>
-</section>
+<section class="container"><div class="cta-block"><h2>Ta dernière séance a encore quelque chose à te dire.</h2><p>Essaie Horo avec une séance déjà dans Apple Santé. Commence gratuitement et vois si ce retour t’est utile.</p><div class="hero-actions"><a class="btn btn-secondary" href="{{ site.app_store_url }}">Télécharger gratuitement sur l’App Store</a><a class="btn btn-secondary" href="plans-fr.html">Gratuit ou Premium</a></div></div></section>
+<section class="container founder-note"><h2>Aide à faire évoluer Horo</h2><p>Je suis Paraita, le développeur indépendant de Horo à Tahiti. Après ta première analyse, dis-moi ce qui t’a aidé, ce qui était flou ou ce qui t’a bloqué.</p><a class="text-link" href="mailto:paraita@paraita.io?subject=Horo%20Coach%20feedback">Envoyer un retour à Paraita →</a></section>
