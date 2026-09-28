@@ -19,7 +19,7 @@ description: Comparatif des offres gratuite et premium de Horo Coach.
       <h3>Offre Gratuite</h3>
       <ul>
         <li>Expérience d’analyse IA essentielle</li>
-        <li>2 analyses par jour</li>
+        <li>Quota quotidien d’analyses (quota actuel indiqué dans l’app)</li>
         <li>Choix parmi 3 coachs de base + le coach mystère saisonnier en cours</li>
         <li>Parfait pour découvrir Horo et créer une routine</li>
       </ul>
@@ -48,7 +48,7 @@ description: Comparatif des offres gratuite et premium de Horo Coach.
       <tbody>
         <tr>
           <td>Analyses</td>
-          <td>2 par jour</td>
+          <td>Quota quotidien indiqué dans l’app</td>
           <td><strong>Illimitées</strong></td>
         </tr>
         <tr>
@@ -73,9 +73,10 @@ description: Comparatif des offres gratuite et premium de Horo Coach.
     <p>Premium n’apporte pas seulement plus d’analyses. Il apporte une lecture plus fine selon chaque activité, et un accès durable à toutes les personnalités saisonnières.</p>
   </article>
 
+  <p><a class="text-link" href="get-started-fr.html">Commencer par ta première analyse →</a></p>
   <div class="cta-block">
     <h2>Entraîne-toi avec plus de clarté, de profondeur et de variété de coaching.</h2>
     <p>Commence gratuitement aujourd’hui, puis débloque Premium pour des analyses illimitées et des indicateurs avancés par activité.</p>
-    <a class="btn btn-secondary" href="#" aria-label="Télécharger Horo Coach sur l’App Store">Télécharger Horo Coach sur l’App Store</a>
+    <a class="btn btn-secondary" href="{{ site.app_store_url }}" aria-label="Télécharger Horo Coach sur l’App Store">Télécharger Horo Coach sur l’App Store</a>
   </div>
 </section>

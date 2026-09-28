@@ -5,7 +5,7 @@ lang: fr
 lang_alt: /press-kit.html
 nav_key: press
 page_class: legal-page
-description: Ressources presse Horo Coach : description produit, fonctionnalités, assets et captures.
+description: "Ressources presse Horo Coach : description produit, fonctionnalités, assets et captures."
 ---
 
 <section class="container legal-layout fade-in">
@@ -52,18 +52,11 @@ description: Ressources presse Horo Coach : description produit, fonctionnalité
   <article id="founder" class="prose">
     <h2>Bio Fondateur</h2>
     <p><strong>[Nom du fondateur]</strong> est le créateur de Horo Coach, avec une approche centrée sur des produits santé élégants, concrets et adaptés à l’écosystème Apple.</p>
-    <p><em>Remplace cette section avec la biographie complète, le parcours, et les informations presse.</em></p>
   </article>
 
   <article id="assets" class="prose">
-    <h2>Assets Téléchargeables</h2>
-    <ul>
-      <li><a href="#">Pack icônes app (PNG/SVG)</a></li>
-      <li><a href="#">Logo marque (clair/sombre)</a></li>
-      <li><a href="#">One-pager produit (PDF)</a></li>
-      <li><a href="#">Pack captures récentes (ZIP)</a></li>
-    </ul>
-    <p><em>Remplace les liens ci-dessus par les URLs réelles des assets.</em></p>
+    <h2>Ressources presse</h2>
+    <p>Consulte les captures sur <a class="text-link" href="{{ site.app_store_url }}">la fiche App Store</a>. Pour obtenir des visuels ou échanger sur Horo, <a class="text-link" href="mailto:paraita@paraita.io?subject=Horo%20Coach%20presse">contacte Paraita</a>.</p>
   </article>
 
   <section id="screenshots">

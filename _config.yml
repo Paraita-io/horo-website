@@ -1,0 +1,12 @@
+title: Horo Coach
+url: "https://paraita-io.github.io"
+baseurl: "/horo-website"
+app_store_url: "https://apps.apple.com/app/horo-coach/id6756943315"
+app_store_id: "6756943315"
+markdown: kramdown
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - scripts
+  - vendor

@@ -11,11 +11,11 @@
   {% assign lang_alt = page.url | replace: '.html', '-fr.html' %}
 {% endif %}
 {% if is_fr %}
-  {% assign en_url = lang_alt | remove_first: '/' %}
-  {% assign fr_url = page.url | remove_first: '/' %}
+  {% assign en_url = lang_alt %}
+  {% assign fr_url = page.url %}
 {% else %}
-  {% assign en_url = page.url | remove_first: '/' %}
-  {% assign fr_url = lang_alt | remove_first: '/' %}
+  {% assign en_url = page.url %}
+  {% assign fr_url = lang_alt %}
 {% endif %}
 
 <header class="site-header" data-header>
@@ -26,23 +26,21 @@
       <span>Horo Coach</span>
     </a>
 
-    <button class="nav-toggle" type="button" aria-label="{% if is_fr %}Ouvrir le menu{% else %}Open menu{% endif %}" aria-expanded="false" data-nav-toggle>
+    <button class="nav-toggle" type="button" aria-label="{% if is_fr %}Ouvrir le menu{% else %}Open menu{% endif %}" aria-expanded="false" data-nav-toggle aria-controls="primary-nav">
       <span></span>
       <span></span>
     </button>
 
-    <nav class="site-nav" data-nav>
+    <nav id="primary-nav" class="site-nav" data-nav aria-label="{% if is_fr %}Navigation principale{% else %}Main navigation{% endif %}">
       <a href="{% if is_fr %}index-fr.html{% else %}index.html{% endif %}" {% if page.nav_key == 'home' %}aria-current="page"{% endif %}>{% if is_fr %}Accueil{% else %}Home{% endif %}</a>
       <a href="{% if is_fr %}plans-fr.html{% else %}plans.html{% endif %}" {% if page.nav_key == 'plans' %}aria-current="page"{% endif %}>{% if is_fr %}Offres{% else %}Plans{% endif %}</a>
-      <a href="{% if is_fr %}press-kit-fr.html{% else %}press-kit.html{% endif %}" {% if page.nav_key == 'press' %}aria-current="page"{% endif %}>{% if is_fr %}Press Kit{% else %}Press Kit{% endif %}</a>
-      <a href="{% if is_fr %}support-fr.html{% else %}support.html{% endif %}" {% if page.nav_key == 'support' %}aria-current="page"{% endif %}>{% if is_fr %}Support{% else %}Support{% endif %}</a>
-      <a href="{% if is_fr %}privacy-policy-fr.html{% else %}privacy-policy.html{% endif %}" {% if page.nav_key == 'privacy' %}aria-current="page"{% endif %}>{% if is_fr %}Confidentialité{% else %}Privacy{% endif %}</a>
-      <a href="{% if is_fr %}privacy-choices-fr.html{% else %}privacy-choices.html{% endif %}" {% if page.nav_key == 'choices' %}aria-current="page"{% endif %}>{% if is_fr %}Choix de confidentialité{% else %}Privacy Choices{% endif %}</a>
+      <a href="{% if is_fr %}get-started-fr.html{% else %}get-started.html{% endif %}" {% if page.nav_key == 'guide' %}aria-current="page"{% endif %}>{% if is_fr %}Bien démarrer{% else %}Get started{% endif %}</a>
+      <a href="{% if is_fr %}support-fr.html{% else %}support.html{% endif %}" {% if page.nav_key == 'support' %}aria-current="page"{% endif %}>Support</a>
     </nav>
 
     <div class="lang-switcher" aria-label="{% if is_fr %}Sélecteur de langue{% else %}Language switcher{% endif %}">
-      <a class="lang-switch {% unless is_fr %}active{% endunless %}" href="{{ en_url }}" lang="en" aria-current="{% unless is_fr %}true{% else %}false{% endunless %}">EN</a>
-      <a class="lang-switch {% if is_fr %}active{% endif %}" href="{{ fr_url }}" lang="fr" aria-current="{% if is_fr %}true{% else %}false{% endif %}">FR</a>
+      <a class="lang-switch {% unless is_fr %}active{% endunless %}" href="{{ en_url | relative_url }}" lang="en" aria-current="{% unless is_fr %}true{% else %}false{% endunless %}">EN</a>
+      <a class="lang-switch {% if is_fr %}active{% endif %}" href="{{ fr_url | relative_url }}" lang="fr" aria-current="{% if is_fr %}true{% else %}false{% endif %}">FR</a>
     </div>
   </div>
 </header>
